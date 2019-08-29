@@ -7,11 +7,17 @@
 //
 
 #import "CTInPathVehicle.h"
-#import "GTInPathVehicle.h"
+#import "CTVehicleDetails.h"
+#import "CTWidgetContainer.h"
 
-typedef NS_ENUM(NSInteger, CTAppType) {
-    CTAppTypeRental,
-    CTAppTypeGroundTransportation,
+@class CTReservationDetails;
+
+/**
+ Enum referring to each flow supported
+ */
+typedef NS_ENUM(NSUInteger, CTFlowType) {
+    CTFlowTypeStandAlone,
+    CTFlowTypeInPath
 };
 
 static NSString * _Nonnull const CTPlaceholderSeriesCode = @"[SERIESCODE]";
@@ -40,12 +46,8 @@ static NSString * _Nonnull const CTPlaceholderPassengerCountryCode = @"[COUNTRYN
 - (void)didProduceInPathPaymentRequest:(nonnull NSDictionary *)request
                                vehicle:(nonnull CTInPathVehicle *)vehicle;
 
-@optional
 
-/**
- Called when the user taps on the cross sell card
- */
-- (void)didTapCrossSellCard;
+@optional
 
 /**
  Called when the vehicles have been fetched and the best daily rate has been calculated
@@ -61,36 +63,40 @@ static NSString * _Nonnull const CTPlaceholderPassengerCountryCode = @"[COUNTRYN
  */
 - (void)didFailToReceiveBestDailyRate:(nonnull NSError *)error NS_SWIFT_NAME(didFailToReceiveBestDailyRate(error:));
 
-#pragma Mark - GroundTransportation
-
 /**
- Called when the user chooses to add the vehicle to their basket
+ Called when the vehicles have been fetched
  
- @param request A dictionary containing information about the vehicle and the Cartrawler OTA payment request
- @param vehicle The vehicle that was selected
+ @param vehicles return based on params passed
  */
-- (void)didProduceGTInPathPaymentRequest:(nonnull NSDictionary *)request
-                                 vehicle:(nonnull GTInPathVehicle *)vehicle;
-
-/**
- Called when the user taps on the cross sell card
- */
-- (void)didTapGroundTransportationCard;
-
-/**
- Called when the vehicles have been fetched and the best daily rate has been calculated
- 
- @param price the best daily rate
- @param currency the currency
- */
-- (void)didReceiveGroundTransportationBestDailyRate:(nonnull NSNumber *)price
-                                           currency:(nonnull NSString *)currency;
+- (void)didReceiveVehicles:(nonnull NSArray <CTVehicleDetails *> *)vehicles;
 
 /**
  Called when the call to fetch vehicles fails and the best daily rate cannot be calculated
  */
-- (void)didFailToReceiveGroundTransportationBestDailyRate;
+- (void)didFailToReceiveVehicles:(nonnull NSError *)error NS_SWIFT_NAME(didFailToReceiveVehicles(error:));
 
+/**
+ Called after stand alone flow booking payment has made
+ 
+ @param reservationDetails the booking reservation details
+ */
+- (void)didReceiveReservationDetails:(nonnull CTReservationDetails *)reservationDetails;
 
+/**
+ Called when the user taps on the cross sell card
+ */
+- (void)didTapCrossSellCard;
 
 @end
+
+
+@protocol CTWidgetContainerDelegate <NSObject>
+
+@optional
+- (void)didTapView:(nonnull CTWidgetContainer *)container;
+- (void)didTapAddCarHire:(nonnull CTWidgetContainer *)container;
+- (void)didTapRemoveButton:(nonnull CTWidgetContainer *)container;
+- (void)vehicleSelected:(nonnull CTVehicleDetails *)vehicle;
+
+@end
+

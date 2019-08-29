@@ -17,24 +17,26 @@ typedef NS_ENUM(NSUInteger, CTAppTheme) {
 
 @interface CTStyle : NSObject
 
-@property (nonatomic) CTAppTheme appTheme;
+// Mandatory parameters
+@property (nonatomic, readonly) CTAppTheme appTheme;
 @property (nonatomic, strong, readonly) UIColor *primaryColor;
-@property (nonatomic, strong, readonly) UIColor *primaryDarkColor;
-@property (nonatomic, strong, readonly) UIColor *primaryLightColor;
 
-@property (nonatomic, strong, readonly) UIColor *ctaColor;
-@property (nonatomic, strong, readonly) UIColor *ctaFontColor;
-
+// Optional Parameters
+@property (nonatomic, strong) UIColor *primaryDarkColor;
+@property (nonatomic, strong) UIColor *primaryLightColor;
+@property (nonatomic, strong) UIColor *ctaColor;
+@property (nonatomic, strong) UIColor *ctaFontColor;
 @property (nonatomic, strong) UIColor *secondaryCtaColor;
 @property (nonatomic, strong) UIColor *secondaryCtaFontColor;
-
 @property (nonatomic, strong) UIColor *linkColor;
 
-+ (instancetype)styleWithPrimaryColor:(UIColor *)primaryColor
-                    primaryLightColor:(nullable UIColor *)primaryLightColor
-                     primaryDarkColor:(nullable UIColor *)primaryDarkColor
-                             ctaColor:(nullable UIColor *)color
-                         ctaFontColor:(nullable UIColor *)ctaFontColor;
+// Fonts
+@property (nonatomic, strong) UIFont *regularFont;
+@property (nonatomic, strong) UIFont *boldFont;
+@property (nonatomic, strong) UIFont *italicFont;
+
++ (instancetype)styleWithTheme:(CTAppTheme)appTheme
+                  primaryColor:(nonnull UIColor *)primaryColor;
 
 @end
 
