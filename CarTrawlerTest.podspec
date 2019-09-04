@@ -20,7 +20,7 @@ LICENSE
 s.author       = { "Cartrawler" => "" }
 s.platform     = :ios
 s.platform     = :ios, "9.0"
-s.source       = { :git => "https://github.com/cartrawler/cartrawler-ios-test-sdk", :tag => "#{s.version}" }
+s.source       = { :git => "https://github.com/cartrawler/cartrawler-ios-test-sdk.git", :tag => "#{s.version}" }
 
 s.ios.vendored_frameworks = 'CarTrawlerSDK.framework'
 
