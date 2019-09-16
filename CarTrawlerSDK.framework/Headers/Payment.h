@@ -1,5 +1,5 @@
 //
-//  CTPaymentDetails.h
+//  Payment.h
 //  CarTrawlerSDK
 //
 //  Created by Gareth Harte on 11/09/2019.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface CTPaymentDetails : NSObject
+@interface Payment : NSObject
 
 @property (nonatomic, readonly) NSNumber *authTotal;
 @property (nonatomic, readonly) NSString *authCurrency;
