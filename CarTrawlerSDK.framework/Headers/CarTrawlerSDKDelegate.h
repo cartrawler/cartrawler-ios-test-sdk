@@ -46,7 +46,7 @@ static NSString * _Nonnull const CTPlaceholderPassengerCountryCode = @"[COUNTRYN
  */
 - (void)didProduceInPathPaymentRequest:(nonnull NSDictionary *)request
                                vehicle:(nonnull CTInPathVehicle *)vehicle
-                        paymentDetails:(nonnull Payment *)paymentDetails;
+                               payment:(nonnull Payment *)payment;
 
 
 @optional
