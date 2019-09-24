@@ -112,11 +112,6 @@ typedef void (^CTClearStorageCompletion)(NSError * _Nullable error);
 - (void)didReceiveBookingConfirmationID:(nonnull NSString *)confirmationID;
 
 /**
-
- */
-- (void)didReceiveReservationDetails:(nonnull CTReservationDetails *)reservationDetails;
-
-/**
  This will trigger a new best daily rate fetch, and the subsequent delegate callbacks
  The SDK must be initialised, and a CTAPIQueryParams object with the necessary parameters must be set before calling this method
  */
