@@ -28,6 +28,7 @@ static NSString * _Nonnull const CTVisitorId = @"visitorId";
 
 
 typedef void (^CTClearStorageCompletion)(NSError * _Nullable error);
+typedef void (^CTReservationCompletion)(CTReservationDetails * _Nullable reservationDetails, NSError * _Nullable error);
 
 /**
  Please refer to cartrawler.github.io for full documentation
@@ -110,6 +111,12 @@ typedef void (^CTClearStorageCompletion)(NSError * _Nullable error);
  @param confirmationID The confirmation ID or 'Booking reference'
  */
 - (void)didReceiveBookingConfirmationID:(nonnull NSString *)confirmationID;
+
+/**
+ This will trigger a request to retrieve a booking reservation matching the passed in booking ID, and the subsequent delegate callbacks
+ The SDK must be initialised before calling this method
+ */
+- (void)requestReservationDetails:(nonnull CTAPIQueryParams *)params completion:(nonnull CTReservationCompletion)completion;
 
 /**
  This will trigger a new best daily rate fetch, and the subsequent delegate callbacks
