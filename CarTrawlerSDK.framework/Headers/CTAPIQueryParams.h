@@ -35,7 +35,6 @@ typedef NS_ENUM(NSUInteger, CTSortType) {
 @property (nonatomic) NSUInteger numberOfVehicles;
 @property (nonatomic, strong) NSString *resId;
 @property (nonatomic, strong) NSString *resUid;
-@property (nonatomic, strong) NSString *email;
 
 + (nonnull instancetype)bestDailyRateWithDelegate:(nonnull id <CarTrawlerSDKDelegate>)delegate
                                          clientID:(nonnull NSString *)clientID
