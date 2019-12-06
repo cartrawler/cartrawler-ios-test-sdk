@@ -32,7 +32,7 @@
 @property (nonatomic, readonly) NSNumber *totalCost;
 @property (nonatomic, strong, readonly) NSString *refId;
 @property (nonatomic, strong, readonly) CTVehicleDetails *vehicleDetails;
-@property (nonatomic, strong, readonly) NSArray <CTVehicleCharge *> *charges;
+@property (nonatomic, strong, readonly) NSArray <CTVehicleCharge *> *vehicleCharges;
 
 /**
  *  The pay now price, this amount will be taken from the customers card at the time of booking. This price is made up from the deposit amount + insurance cost (if purchased)
