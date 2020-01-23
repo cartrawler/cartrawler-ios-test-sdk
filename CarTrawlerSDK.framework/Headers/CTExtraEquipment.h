@@ -86,6 +86,8 @@ typedef NS_ENUM (NSUInteger, CTExtraEquipmentType) {
  */
 @property (nonatomic, nonnull, readonly) NSString *equipDescription;
 
+@property (nonatomic, readonly) NSInteger maxQuantity;
+
 - (instancetype)initFromDictionary:(NSDictionary *)dict;
 
 @end
