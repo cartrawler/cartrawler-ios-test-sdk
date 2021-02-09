@@ -26,5 +26,6 @@ s.ios.vendored_frameworks = 'CarTrawlerSDK.framework'
 
 s.requires_arc = true
 s.dependency 'CTPayment'
+s.dependency 'SnowplowTracker'
 
 end
