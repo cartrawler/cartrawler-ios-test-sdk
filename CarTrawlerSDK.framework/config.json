@@ -9,7 +9,9 @@
       "abandonmentKey": "",
       "loyaltyProgramId": "CARTRAWLER",
       "supplierBorderColor": "#009900",
-      "supplierTextColor": "#FFFFFF"
+      "supplierTextColor": "#FFFFFF",
+      "ratingType": "Stars"
+      
     },
     {
       "name": "easyJet",
@@ -61,6 +63,7 @@
       "supplierBorderColor": "#009900",
       "supplierTextColor": "#FFFFFF",
       "landingPageIcons": ["hertz", "enterprise", "flizzr", "budget", "avis"],
+      "enableRatings": "true",
       "ratingType": "STARS"
     },
     {
@@ -253,7 +256,8 @@
       "clientIds": [
         "685068",
         "685051"
-      ]
+      ],
+      "abandonmentKey": ""
     },
     {
       "name": "Holiday Autos",
@@ -262,7 +266,8 @@
         "685034",
         "685017",
         "463473"
-      ]
+      ],
+      "abandonmentKey": ""
     },
     {
       "name": "CardGenY",
@@ -277,6 +282,43 @@
       "clientIds": [
         "553676"
       ]
+    },
+    {
+      "name": "MyIDTravel",
+      "domain": "",
+      "clientIds": [
+        "560408",
+        "560425"
+      ]
+    }
+  ],
+  "suppliers": [
+    {
+      "name": "EUROPCAR",
+      "preferredBorderColor": "#009900",
+      "preferredTextColor": "#FFFFFF",
+      "preferredLogo": "https://ct-supplierimage.imgix.net/car/europcar.pdf",
+      "darkPreferredBorderColor": "#FFFFFF",
+      "darkPreferredTextColor": "#000000",
+      "darkPreferredLogo": "https://ct-supplierimage.imgix.net/car/europcar.pdf"
+    },
+    {
+      "name": "AVIS",
+      "preferredBorderColor": "#D4002A",
+      "preferredTextColor": "#FFFFFF",
+      "preferredLogo": "https://ct-supplierimage.imgix.net/car/avis.pdf",
+      "darkPreferredBorderColor": "#D4002A",
+      "darkPreferredTextColor": "#FFFFFF",
+      "darkPreferredLogo": "https://ct-supplierimage.imgix.net/car/avis-dark.pdf"
+    },
+    {
+      "name": "BUDGET",
+      "preferredBorderColor": "#00285f",
+      "preferredTextColor": "#FFFFFF",
+      "preferredLogo": "https://ct-supplierimage.imgix.net/car/budget.pdf",
+      "darkPreferredBorderColor": "#00285f",
+      "darkPreferredTextColor": "#FFFFFF",
+      "darkPreferredLogo": "https://ct-supplierimage.imgix.net/car/budget.pdf"
     }
   ],
   "enablePSD2WebForm": "false",
@@ -289,3 +331,4 @@
   "imageBaseURL": "https://ct-supplierimage.imgix.net/car/",
   "landingPageIcons": ["europcar","avis","hertz","alamo","budget"]
 }
+
