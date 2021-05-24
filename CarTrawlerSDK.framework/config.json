@@ -329,6 +329,301 @@
   "enableCovidInsuranceMessage": "true",
   "covidInsuranceMessageURL": "https://allianztravel-info.com",
   "imageBaseURL": "https://ct-supplierimage.imgix.net/car/",
-  "landingPageIcons": ["europcar","avis","hertz","alamo","budget"]
+  "landingPageIcons": ["europcar","avis","hertz","alamo","budget"],
+  "categories": {
+    "US": [
+      {
+        "type": "economy",
+        "ids": [
+          "1",
+          "33",
+          "2",
+          "3",
+          "34"
+        ],
+        "rank": 1
+      },
+      {
+        "type": "compact",
+        "ids": [
+          "4",
+          "35"
+        ],
+        "rank": 2
+      },
+      {
+        "type": "midsize",
+        "ids": [
+          "5",
+          "6",
+          "36"
+        ],
+        "rank": 4
+      },
+      {
+        "type": "standard",
+        "ids": [
+          "7",
+          "37"
+        ],
+        "rank": 6
+      },
+      {
+        "type": "fullsize",
+        "ids": [
+          "8",
+          "38",
+          "44"
+        ],
+        "rank": 7
+      },
+      {
+        "type": "premium",
+        "ids": [
+          "10",
+          "39"
+        ],
+        "rank": 9
+      },
+      {
+        "type": "luxury",
+        "ids": [
+          "9",
+          "21",
+          "23",
+          "24",
+          "40"
+        ],
+        "rank": 14
+      },
+      {
+        "type": "smallsuv",
+        "ids": [
+          "27"
+        ],
+        "rank": 10
+      },
+      {
+        "type": "midsizesuv",
+        "ids": [
+          "28"
+        ],
+        "rank": 3
+      },
+      {
+        "type": "largesuv",
+        "ids": [
+          "29",
+          "30"
+        ],
+        "rank": 5
+      },
+      {
+        "type": "minivan",
+        "ids": [
+          "11",
+          "45",
+          "46"
+        ],
+        "rank": 8
+      },
+      {
+        "type": "van",
+        "ids": [
+          "47"
+        ],
+        "rank": 12
+      },
+      {
+        "type": "largevan.12pax",
+        "ids": [
+          "12"
+        ],
+        "rank": 16
+      },
+      {
+        "type": "largevan.15pax",
+        "ids": [
+          "14"
+        ],
+        "rank": 17
+      },
+      {
+        "type": "truck",
+        "ids": [
+          "13",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "25",
+          "26"
+        ],
+        "rank": 12
+      },
+      {
+        "type": "convertible",
+        "ids": [
+          "43"
+        ],
+        "rank": 13
+      },
+      {
+        "type": "special",
+        "ids": [
+          "32"
+        ],
+        "rank": 11
+      }
+    ],
+    "default": [
+      {
+        "type": "mini",
+        "ids": [
+          "1",
+          "33"
+        ],
+        "rank": 1
+      },
+      {
+        "type": "economy",
+        "ids": [
+          "3",
+          "34"
+        ],
+        "rank": 2
+      },
+      {
+        "type": "compact",
+        "ids": [
+          "4",
+          "35"
+        ],
+        "rank": 3
+      },
+      {
+        "type": "intermediate",
+        "ids": [
+          "6",
+          "36"
+        ],
+        "rank": 7
+      },
+      {
+        "type": "standard",
+        "ids": [
+          "7",
+          "37"
+        ],
+        "rank": 6
+      },
+      {
+        "type": "fullsize",
+        "ids": [
+          "8",
+          "38"
+        ],
+        "rank": 12
+      },
+      {
+        "type": "luxury",
+        "ids": [
+          "9",
+          "40"
+        ],
+        "rank": 13
+      },
+      {
+        "type": "premium",
+        "ids": [
+          "10"
+        ],
+        "rank": 14
+      },
+      {
+        "type": "minivan",
+        "ids": [
+          "11"
+        ],
+        "rank": 11
+      },
+      {
+        "type": "cargovan",
+        "ids": [
+          "15"
+        ],
+        "rank": 15
+      },
+      {
+        "type": "convertible",
+        "ids": [
+          "43"
+        ],
+        "rank": 16
+      },
+      {
+        "type": "estate",
+        "ids": [
+          "44"
+        ],
+        "rank": 5
+      },
+      {
+        "type": "5seatcarrier",
+        "ids": [
+          "45"
+        ],
+        "rank": 8
+      },
+      {
+        "type": "7seatcarrier",
+        "ids": [
+          "46"
+        ],
+        "rank": 9
+      },
+      {
+        "type": "9seatcarrier",
+        "ids": [
+          "47"
+        ],
+        "rank": 10
+      },
+      {
+        "type": "suv",
+        "ids": [
+          "48",
+          "27",
+          "28",
+          "29",
+          "5"
+        ],
+        "rank": 4
+      },
+      {
+        "type": "scooter",
+        "ids": [
+          "20"
+        ],
+        "rank": 17
+      },
+      {
+        "type": "truck",
+        "ids": [
+          "25",
+          "26"
+        ],
+        "rank": 18
+      },
+      {
+        "type": "exotic",
+        "ids": [
+          "24"
+        ],
+        "rank": 19
+      }
+    ]
+  }
 }
 
