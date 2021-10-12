@@ -18,6 +18,7 @@
 #import "CTWidgetContainer.h"
 #import "CTReservationDetails.h"
 #import "CTVehicleCharge.h"
+#import "CTRecentSearch.h"
 
 FOUNDATION_EXPORT double CarTrawlerSDKVersionNumber;
 
@@ -27,9 +28,9 @@ static NSString * _Nonnull const CTOrderId = @"orderID";
 static NSString * _Nonnull const CTMyAccountID = @"myAccountId";
 static NSString * _Nonnull const CTVisitorId = @"visitorId";
 
-
 typedef void (^CTClearStorageCompletion)(NSError * _Nullable error);
 typedef void (^CTReservationCompletion)(CTReservationDetails * _Nullable reservationDetails, NSError * _Nullable error);
+typedef void (^CTRecentSearchesCompletion)(NSArray<CTRecentSearch *> * _Nullable recentSearches, NSError * _Nullable error);
 
 /**
  Please refer to cartrawler.github.io for full documentation
@@ -130,6 +131,11 @@ typedef void (^CTReservationCompletion)(CTReservationDetails * _Nullable reserva
  The SDK must be initialised, and a CTAPIQueryParams object with the necessary parameters must be set before calling this method
  */
 - (void)requestVehicles:(nonnull CTAPIQueryParams *)params;
+
+/**
+ This method returns the recent searches
+ */
+- (void)requestRecentSearchesWithCompletion:(nonnull CTRecentSearchesCompletion)completion;
 
 /**
  This will clear all storage
