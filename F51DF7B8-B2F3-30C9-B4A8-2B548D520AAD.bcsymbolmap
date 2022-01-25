@@ -1533,6 +1533,8 @@ CartrawlerSDK/CTVehicleListFilterModel.h
 -[CTSearchFormState setRecentSearchLocationTapped:]
 -[CTSearchFormState applyDiscountRates]
 -[CTSearchFormState setApplyDiscountRates:]
+-[CTSearchFormState supplierBenefitAutoApplied]
+-[CTSearchFormState setSupplierBenefitAutoApplied:]
 -[CTSearchFormState .cxx_destruct]
 __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding
 __OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding
@@ -1549,6 +1551,7 @@ _OBJC_IVAR_$_CTSearchFormState._resetVehicleSearchProgress
 _OBJC_IVAR_$_CTSearchFormState._searchFormSubmitted
 _OBJC_IVAR_$_CTSearchFormState._recentSearchLocationTapped
 _OBJC_IVAR_$_CTSearchFormState._applyDiscountRates
+_OBJC_IVAR_$_CTSearchFormState._supplierBenefitAutoApplied
 _OBJC_IVAR_$_CTSearchFormState._clientID
 _OBJC_IVAR_$_CTSearchFormState._config
 _OBJC_IVAR_$_CTSearchFormState._selectedTextField
@@ -5464,12 +5467,7 @@ CartrawlerSDK/CTVehicleListSaleCell.m
 +[CTSearchFormReducer validateSearchStep:]
 +[CTSearchFormReducer validateDriverAgeStep:]
 +[CTSearchFormReducer validateSupplierBenefitCode:]
-_OBJC_CLASSLIST_REFERENCES_$_.152
-_OBJC_CLASSLIST_REFERENCES_$_.183
-_OBJC_CLASSLIST_REFERENCES_$_.210
-_OBJC_SELECTOR_REFERENCES_.222
-_OBJC_SELECTOR_REFERENCES_.224
-_OBJC_CLASSLIST_REFERENCES_$_.233
+_OBJC_CLASSLIST_REFERENCES_$_.214
 __OBJC_$_CLASS_METHODS_CTSearchFormReducer
 __OBJC_CLASS_PROTOCOLS_$_CTSearchFormReducer
 __OBJC_METACLASS_RO_$_CTSearchFormReducer
@@ -5649,6 +5647,8 @@ _OBJC_CLASSLIST_REFERENCES_$_.155
 ___block_descriptor_41_e8_32s_e5_v8?0l
 _OBJC_CLASSLIST_REFERENCES_$_.209
 _OBJC_CLASSLIST_REFERENCES_$_.218
+_OBJC_SELECTOR_REFERENCES_.222
+_OBJC_SELECTOR_REFERENCES_.224
 _OBJC_CLASSLIST_REFERENCES_$_.244
 _OBJC_IVAR_$_CTSearchLocationsViewController._delegate
 _OBJC_IVAR_$_CTSearchLocationsViewController._topView
@@ -6429,6 +6429,7 @@ ___block_descriptor_40_e8_32bs_e42_v24?0"NSDictionary"8"CTErrorResponse"16l
 _OBJC_CLASSLIST_REFERENCES_$_.78
 ___block_descriptor_48_e8_32s40bs_e42_v24?0"NSDictionary"8"CTErrorResponse"16l
 _OBJC_CLASSLIST_REFERENCES_$_.141
+_OBJC_CLASSLIST_REFERENCES_$_.152
 ___block_descriptor_40_e8_32bs_e50_v24?0"CTTermsAndConditions"8"CTErrorResponse"16l
 ___block_descriptor_48_e8_32bs_e46_v32?0"NSData"8"NSURLResponse"16"NSError"24l
 _OBJC_CLASSLIST_REFERENCES_$_.211
@@ -6770,6 +6771,7 @@ CartrawlerSDK/CTSelectionListState.h
 +[CTSessionReducer landingPageIconsURL:baseURL:]
 +[CTSessionReducer resetDeeplinkParamenters:payload:]
 _OBJC_CLASSLIST_REFERENCES_$_.144
+_OBJC_CLASSLIST_REFERENCES_$_.233
 _OBJC_SELECTOR_REFERENCES_.253
 _OBJC_CLASSLIST_REFERENCES_$_.262
 _OBJC_CLASSLIST_REFERENCES_$_.289
@@ -7150,7 +7152,6 @@ CartrawlerSDK/CTAlertTableViewController.h
 _OBJC_IVAR_$_CTPaymentWebView._webView
 _OBJC_IVAR_$_CTPaymentWebView._jsonResponse
 _OBJC_IVAR_$_CTPaymentWebView._currentStatus
-_OBJC_CLASSLIST_REFERENCES_$_.214
 _OBJC_IVAR_$_CTPaymentWebView._paymentStatus
 _OBJC_CLASSLIST_REFERENCES_$_.231
 _OBJC_IVAR_$_CTPaymentWebView._delegate
@@ -8644,9 +8645,11 @@ _OBJC_IVAR_$_CTFloatLabeledTextField._floatingLabelXPadding
 _OBJC_IVAR_$_CTFloatLabeledTextField._floatingLabelYPadding
 _OBJC_IVAR_$_CTFloatLabeledTextField._placeholderYPadding
 _OBJC_IVAR_$_CTFloatLabeledTextField._alwaysShowFloatingLabel
+_OBJC_CLASSLIST_REFERENCES_$_.183
 _OBJC_IVAR_$_CTFloatLabeledTextField.topBorder
 _OBJC_IVAR_$_CTFloatLabeledTextField.bottomBorder
 _OBJC_IVAR_$_CTFloatLabeledTextField.border
+_OBJC_CLASSLIST_REFERENCES_$_.210
 _OBJC_CLASSLIST_REFERENCES_$_.222
 _OBJC_CLASSLIST_REFERENCES_$_.227
 _OBJC_IVAR_$_CTFloatLabeledTextField._fieldState
