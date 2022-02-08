@@ -12,6 +12,7 @@
 #import "CTRentalInfo.h"
 #import "CTLoyalty.h"
 #import "CTVehicleDetails.h"
+#import "CTSupplierBenefitDetails.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -31,6 +32,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, nonnull, readonly) CTRentalInfo *rentalInfo;
 @property (nonatomic, nonnull, readonly) CTVehicleDetails *vehicleDetails;
 @property (nonatomic, nonnull, readonly) CTLoyalty *loyalty;
+@property (nonatomic, nullable, readonly) NSArray <CTSupplierBenefitDetails *> *supplierBenefits;
 
 @end
 
