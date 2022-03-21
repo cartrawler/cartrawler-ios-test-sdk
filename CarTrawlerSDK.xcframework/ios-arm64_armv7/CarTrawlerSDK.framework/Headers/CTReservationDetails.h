@@ -31,7 +31,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, nullable, readonly) CTInsuranceDetails *insurance;
 @property (nonatomic, nonnull, readonly) CTRentalInfo *rentalInfo;
 @property (nonatomic, nonnull, readonly) CTVehicleDetails *vehicleDetails;
-@property (nonatomic, nonnull, readonly) CTLoyalty *loyalty;
+@property (nonatomic, nullable, readonly) CTLoyalty *loyalty;
 @property (nonatomic, nullable, readonly) NSArray <CTSupplierBenefitDetails *> *supplierBenefits;
 
 @end
