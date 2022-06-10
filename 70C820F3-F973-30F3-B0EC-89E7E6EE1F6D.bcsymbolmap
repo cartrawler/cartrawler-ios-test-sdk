@@ -3097,11 +3097,14 @@ ___50-[CTUserInterfaceController dismissViewController]_block_invoke
 -[CTUserInterfaceController setOperationQueue:]
 -[CTUserInterfaceController customFont]
 -[CTUserInterfaceController setCustomFont:]
+-[CTUserInterfaceController navigationBarHidden]
+-[CTUserInterfaceController setNavigationBarHidden:]
 -[CTUserInterfaceController .cxx_destruct]
 ___block_descriptor_56_e8_32s40s48w_e5_v8?0l
 ___block_descriptor_48_e8_32s40w_e5_v8?0l
 __OBJC_METACLASS_RO_$_CTUserInterfaceController
 __OBJC_$_INSTANCE_METHODS_CTUserInterfaceController
+_OBJC_IVAR_$_CTUserInterfaceController._navigationBarHidden
 _OBJC_IVAR_$_CTUserInterfaceController._navigationController
 _OBJC_IVAR_$_CTUserInterfaceController._operationQueue
 _OBJC_IVAR_$_CTUserInterfaceController._customFont
