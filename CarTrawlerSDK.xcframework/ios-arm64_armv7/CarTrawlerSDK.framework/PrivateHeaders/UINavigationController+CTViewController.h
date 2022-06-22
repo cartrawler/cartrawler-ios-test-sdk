@@ -13,8 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UINavigationController (CTViewController) <CTViewControllerProtocol>
 
-@property (nonatomic, strong) NSArray *stackViewControllers;
-@property (nonatomic, strong) NSArray *originalViewControllers;
+@property (nonatomic, strong, nullable) NSArray *stackViewControllers;
+@property (nonatomic, strong, nullable) NSArray *originalViewControllers;
 
 @end
 
