@@ -20,9 +20,16 @@ typedef NS_ENUM(NSUInteger, CTDeeplink) {
     CTDeeplinkSearchForm
 };
 
+typedef NS_ENUM(NSUInteger, CTSettingsIconType) {
+    CTSettingsIconCog,
+    CTSettingsIconUser,
+    CTSettingsIconHamburger
+};
+
 @interface CTContext : NSObject
 
-@property (nonatomic, strong, readonly) NSString *clientID;
+@property (nonatomic, strong, readonly, nonnull) NSString *implementationID;
+@property (nonatomic, strong, readonly, nonnull) NSString *clientID;
 @property (nonatomic, readonly) CTFlowType flowType;
 @property (nonatomic, weak) id <CarTrawlerSDKDelegate> delegate;
 @property (nonatomic, strong) NSString *countryCode;
@@ -44,9 +51,13 @@ typedef NS_ENUM(NSUInteger, CTDeeplink) {
 @property (nonatomic, strong) NSString *promotionCode;
 @property (nonatomic, strong) CTRecentSearch *recentSearch;
 @property (nonatomic) BOOL supplierBenefitAutoApplied;
+@property (nonatomic) CTSettingsIconType settingsIconType;
 
-- (instancetype)init NS_UNAVAILABLE;
-- (nonnull instancetype)initWithClientID:(nonnull NSString *)clientID flow:(CTFlowType)flowType;
+- (instancetype)init __attribute__((unavailable("Please use initWithImplementationID:clientID:flow")));
+- (nonnull instancetype)initWithClientID:(nonnull NSString *)clientID flow:(CTFlowType)flowType __attribute__((unavailable("Please use initWithImplementationID:clientID:flow")));
+- (nonnull instancetype)initWithImplementationID:(nonnull NSString *)implementationID
+                                        clientID:(nonnull NSString *)clientID
+                                            flow:(CTFlowType)flowType;
 
 @end
 

@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "CarTrawlerTest"
-s.version      = "13.1.1"
+s.version      = "14.3.0"
 s.summary      = "Cartrawler iOS SDK"
 s.description  = <<-DESC
 A toolkit for car rental & ground transport
@@ -26,6 +26,6 @@ s.ios.vendored_frameworks = 'CarTrawlerSDK.xcframework'
 
 s.requires_arc = true
 s.dependency 'CTPaymentRelease'
-s.preserve_path = '**/*.dSYM'
+s.preserve_paths = '**/*.dSYM', '*.dSYM'
 
 end
