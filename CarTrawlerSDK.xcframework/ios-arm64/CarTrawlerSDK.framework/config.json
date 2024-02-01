@@ -898,6 +898,7 @@
   "enablePrePaidExtras": "false",
   "enableZeroExcess": "true",
   "enableZeroExcessUpSell": "true",
+  "enableMap": "false",
   "saleTermsAndConditionsURL": "https://cars.cartrawler.com/book/${x}/terms-sale",
   "enableCovidInsuranceMessage": "true",
   "covidInsuranceMessageURL": "https://allianztravel-info.com",
