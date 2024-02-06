@@ -894,7 +894,6 @@
     }
   ],
   "enableCTCashSubtraction": "false",
-  "enablePSD2WebForm": "false",
   "enablePrePaidExtras": "false",
   "enableZeroExcess": "true",
   "enableZeroExcessUpSell": "true",
