@@ -6,7 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		5R3H9Y3HCTimRrAAJhgUzEhfm0k=
+		+1MH/LxGiNtrvWHoABjmvbG8GAI=
+		</data>
+		<key>CTAcceptedCardTypeView.nib</key>
+		<data>
+		W5JvKbXwXiwjc0P4fIyzO7tYy3U=
 		</data>
 		<key>CTAlert.storyboardc/1rC-I4-QJR-view-F0k-fa-JR4.nib</key>
 		<data>
@@ -202,7 +206,7 @@
 		</data>
 		<key>CTPayment.storyboardc/P6A-6P-rPv-view-2uz-S3-FC1.nib</key>
 		<data>
-		OQpsWduIUDJTPHGSHi3Ymu5Ehf8=
+		WCPCVVmdSibpPCjtm9cfvd99/hk=
 		</data>
 		<key>CTPaymentConfirmation.storyboardc/CTPaymentConfirmationViewController.nib</key>
 		<data>
@@ -814,15 +818,15 @@
 		</data>
 		<key>ar.strings</key>
 		<data>
-		IwupvGCCAVp0913aWx5DRwAwXL4=
+		1JRbGhv1ep/B/FMNd+xD/fXXRms=
 		</data>
 		<key>bg.strings</key>
 		<data>
-		88sbBNCjux1PGzAHI8lkykKyBFQ=
+		wj1KFvX+5reXLHeX4kJM6E+tne0=
 		</data>
 		<key>ca.strings</key>
 		<data>
-		nuDLVaDpbwj834oFmFTchHfuguk=
+		3zA3qqTMVooHil7PKw8X59lkKgc=
 		</data>
 		<key>config.json</key>
 		<data>
@@ -830,128 +834,128 @@
 		</data>
 		<key>cs.strings</key>
 		<data>
-		HlpVDLIDPxKFeXjoPQvAhRWHQkA=
+		hlPzTnIob9o1TKcZ9CRQo5G/SfA=
 		</data>
 		<key>da.strings</key>
 		<data>
-		abtJoVJ57x5tL7Bm7MgpFy3QDi8=
+		chTffsVn8bRdpjeTNna+MbecCqI=
 		</data>
 		<key>de.strings</key>
 		<data>
-		exeX1m8/MzSIAApy8WZ1scfh59E=
+		1xdl+Weg8B7Jab0T6CYnWGZBYK0=
 		</data>
 		<key>el.strings</key>
 		<data>
-		9fdJlMOLl6E4ZPm3UAYvzoWypNY=
+		IKP3deIFNArBFEFMXjOtaDbRH5o=
 		</data>
 		<key>en-us.strings</key>
 		<data>
-		MFzaTi8a+RRQzBN/XTOjj/foMIU=
+		IjLgHfbr8CYXJFX28rnw6JYZQiY=
 		</data>
 		<key>en.lproj/en.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BXN7zVaDO/Z9qImLKaRPETRQj+w=
+			Bm5gf+ffG2i61ZmwvlFjm0noCoc=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>es-MX.strings</key>
 		<data>
-		HBIWh/6agZTZDHBJd40csURdal8=
+		OvmXYB5e4H+xiPyYEksFHbxmSUY=
 		</data>
 		<key>es.strings</key>
 		<data>
-		Cs6OTbJDaKY9ox0Dx6lNElKiXIY=
+		gDyk39ST8IULcsA0xSVH+k+HTu8=
 		</data>
 		<key>et.strings</key>
 		<data>
-		5P26wewvnKi964xVkzV/dM8V8UE=
+		AJr+rrjPxyZLPB8Bij/tp0UI+5M=
 		</data>
 		<key>fi.strings</key>
 		<data>
-		zpeQborEzvIHX4eoffRxE37pg1U=
+		8cW9AfKTnqZ6RrS3n2b73xfX40w=
 		</data>
 		<key>fr-CA.strings</key>
 		<data>
-		NGGzaekuGxBqa66UU0+esdjXM4g=
+		yZe8opP+LUvjtWyXiWFRAdp2HX8=
 		</data>
 		<key>fr.strings</key>
 		<data>
-		bOimUYEAGvq/lvRvOuC+v4usaqE=
+		rApwh/I3vBRyM8hEOBvGY81t78g=
 		</data>
 		<key>hr.strings</key>
 		<data>
-		eKUkEcnhn8Fm7JCIZNTgw21XVNg=
+		m2YS7QIyXFsu082I99OqxoE6xB8=
 		</data>
 		<key>hu.strings</key>
 		<data>
-		JXN1mD6lVYzQeQ30vwxU97/wxfk=
+		VxygS/Y/3mUL4ElLG5yUze9pcik=
 		</data>
 		<key>id.strings</key>
 		<data>
-		cdLEL327Ic8y6E2i2+nVvrRkbNw=
+		m1LJV5iHwUpgc/0iN0Q+OenXbJY=
 		</data>
 		<key>is.strings</key>
 		<data>
-		reFGrL/Drh+ow4JyZWw/2VL7mNQ=
+		nL5g6fCZOQVZD4Fp2dhBUjI40n4=
 		</data>
 		<key>it.strings</key>
 		<data>
-		ctc7riQ6loRAL+N4ioWGzdTrSu8=
+		ustuiGFOOS0cZnw3+gBpt/6o+cI=
 		</data>
 		<key>ja.strings</key>
 		<data>
-		2nEtQSNMYDftbyLUizEUi4dJmJA=
+		/EnDRt0ILNjgnYlK9A7uu904csM=
 		</data>
 		<key>ko.strings</key>
 		<data>
-		nSrGJd/0FkHbT8h6ehm8yT6Obro=
+		6LxhKpIQCdVsAbUEkoyaJb+/Ojo=
 		</data>
 		<key>lt.strings</key>
 		<data>
-		8ypd4x/PpQ19Qq6EPbzWU0M3v4Q=
+		Eb52PfPNDu6OyZZ92Z5kC3nKTtM=
 		</data>
 		<key>lv.strings</key>
 		<data>
-		WvoFh+65Q3mSqI71EwrZ+cHhJYA=
+		9UYqZGFs4/mlZKQjbDErGZTR9mY=
 		</data>
 		<key>ms.strings</key>
 		<data>
-		5Y/H7TNzQUlIa6JC36rH/23p4FA=
+		9G/ccplgmzCWp5C7LL5cZjsBV4c=
 		</data>
 		<key>nb.strings</key>
 		<data>
-		p/0A8VSEybfZgkcYKEkNAc3obPQ=
+		k5/LCZX8jaD0IOCbW2DtLIUh4/M=
 		</data>
 		<key>nl.strings</key>
 		<data>
-		/wCsauAQlV9dMFxjF+2BwL1wzp8=
+		bLIMGutQigh+uONIi769DbZJJHk=
 		</data>
 		<key>pl.strings</key>
 		<data>
-		nNP3G5UI87Lkj+aEOsu+86UeSLY=
+		7T9UKjlWyAB5knh5MguSOBedL+w=
 		</data>
 		<key>pt-BR.strings</key>
 		<data>
-		oTXkXyxZOyqr/hAEIABfpSObSAw=
+		xc3lmGmz8o+wouKwyKXZJ1JEym0=
 		</data>
 		<key>pt.strings</key>
 		<data>
-		aAgdcQZibP71M53+A1jR0/k3wIg=
+		2FvgcJbv6jK0gEUV8zO8KKxKTdE=
 		</data>
 		<key>ro.strings</key>
 		<data>
-		60Jgegrk0cLXftA3Ysu6dT3ze9Y=
+		QIIgMJD4hJzWIhfNOGOvzUPbUo0=
 		</data>
 		<key>ru.strings</key>
 		<data>
-		z6zHm9f1eW+9269xsZsZCeSKT9k=
+		4Llw3R08QQus0hMcSbycMz8wVM4=
 		</data>
 		<key>sr.strings</key>
 		<data>
-		KkMpfyUxr5X263xkO6SRu1biSX0=
+		iuYpxOqIQcGzlOiLFi7BGSc5WcE=
 		</data>
 		<key>strip-frameworks.sh</key>
 		<data>
@@ -959,35 +963,35 @@
 		</data>
 		<key>sv.strings</key>
 		<data>
-		pFuNMoJPNcyWYGBXDkUsrgw0RwQ=
+		rxgdpOFrlvxS4xtuHiw4k1fNoaU=
 		</data>
 		<key>th.strings</key>
 		<data>
-		AHCptH12iTa+sVOqv5obL3JvxSk=
+		UTPC35SmYTeILwc58EVMQlh8HRY=
 		</data>
 		<key>tr.strings</key>
 		<data>
-		QT5FiK7fXKLmDC8L/d/1Q83rmS8=
+		q/qPW24gEkD7+QFfmo0ikrlHvUg=
 		</data>
 		<key>uk.strings</key>
 		<data>
-		rhsfg8A510fPiKFi158apQGAoKY=
+		t61u1/RFBtz15c9r1TNAQ5zEWGs=
 		</data>
 		<key>vi.strings</key>
 		<data>
-		AongFKmEiJwOrt33c2Smf4bxxR4=
+		XJ7KhBdhpiP180yPi2PdYDzft+I=
 		</data>
 		<key>zh-CN.strings</key>
 		<data>
-		GaXyHxE1KxTsE9lVc71XPNJMzT8=
+		nL2gEfygALqjeJ7zrGXdjlhD1iQ=
 		</data>
 		<key>zh-HK.strings</key>
 		<data>
-		wbjnOaAbVIQg7MOH3T40U31uarE=
+		WC+DuNt6Tc+T7NANNgDOVgXnLSA=
 		</data>
 		<key>zh-TW.strings</key>
 		<data>
-		1fpuZjdlSvkU6eO7NmjL2rUczU8=
+		SaZgfhOWt1Gv/GgZ35xmyGSCkAE=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -996,7 +1000,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			U7reDfNtXuJvhZ4Gk/WDbFxGAtCeh5iHiYg1yKPa9tI=
+			hdMNXeaNpD35048nqNA56ke3WZsYspY/rGOKOaW+qfU=
+			</data>
+		</dict>
+		<key>CTAcceptedCardTypeView.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			V4GWC2IzYFJa/oJIUlPosupWnSQjcJ3nE/ne6G+gNOo=
 			</data>
 		</dict>
 		<key>CTAlert.storyboardc/1rC-I4-QJR-view-F0k-fa-JR4.nib</key>
@@ -1339,7 +1350,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mifHZ2eiC0FziqjfKKklpgReWZCmQNk43933GMUAGeo=
+			WPt7fOSexLMA4me57K03ue/fPZH/tFW734/l78MWhNg=
 			</data>
 		</dict>
 		<key>CTPaymentConfirmation.storyboardc/CTPaymentConfirmationViewController.nib</key>
@@ -2403,21 +2414,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KIpDSD5eRDeBIqM0xDFGKeucLpWF91VfTgIvkgI5M+Y=
+			wJEdDO0j2JoOMJMaRz4PmJE6FrCC0Oh63oOF4LIzVP0=
 			</data>
 		</dict>
 		<key>bg.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SjRkrwb/baK3NQ6BNXsNnP9P2hxAhy4HSapG+Xkxn4I=
+			o7u30/Kj97qf9KHNmL7vEuWPOxoJmPOPRdpy5MvaOfc=
 			</data>
 		</dict>
 		<key>ca.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VxOK45ERxrvHXfMjmzhaD0VqDFMmqaJRy+v/YrBzSxY=
+			MfZRifOSPPQ4B1OljsFHnCVMHGaO/iLrWlXuv/pjm98=
 			</data>
 		</dict>
 		<key>config.json</key>
@@ -2431,42 +2442,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yPlatc2cq8VQY55qEFn2ZP2imUxfGY1vm4PTSkYmNmE=
+			6mvswlpUasvRM2hxT9QPCCFhGjWdCbwqsgv30Mcsap4=
 			</data>
 		</dict>
 		<key>da.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AMTtVgLsNnxA5ji8e1vr3JbP+gQymJHxKsnWRNDSmcI=
+			BOE+B42BQur7ojxp0gyoeokBthjDUysU4w+NaKxtP0o=
 			</data>
 		</dict>
 		<key>de.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sApltwqaVTCftpHu94LzI3UUcGVjpUYEk9wBLL2VKAw=
+			Lq3sKvf7meaHRjUscXpdm4Rf27FV6ZQcZ9q3dv6D76o=
 			</data>
 		</dict>
 		<key>el.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EaTbfzwqyLm7GhigVPYETBDJnw6VGrVbGdamO+7nyeU=
+			IBr2Vyy4xbbz6F0zjKArCXOLZFbryHB9FOt0NYzYTHM=
 			</data>
 		</dict>
 		<key>en-us.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TFIUIJgu/vJlu09puzFJ2S4b5Pw0T0oJws13L5agK8c=
+			gR7QqCKKsB75PDp5mimBHKdnVN0BjaB2HAWsDfoVBFw=
 			</data>
 		</dict>
 		<key>en.lproj/en.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DFCfuaFLBQdUVh3Tl6Wooc3tzc48eybpqBfvYtNLe9A=
+			kzeP0G8gYkCHvGf1qm6jfor96sIrfO6tODqSNBPFALM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2475,168 +2486,168 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SmZYWl6jPRDmOczUv9AAS5MDoh7rNfksPYfYGNQK9w8=
+			/dClg3UHOx6UvVjzaVfoZw+RImPdyJe/Fd6bVe4EI94=
 			</data>
 		</dict>
 		<key>es.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+6fg18TTZUWc3ydGljFHtdfWx7X5WScGeCHIp1MmzoQ=
+			yelhj8Y9gdmmmFJyenLpeWZcE9X+7zEn85e+kNjaldI=
 			</data>
 		</dict>
 		<key>et.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DcwEHBjYceekDEcfS+S5VZT9u3wUveMYJ8kyFx22Za4=
+			Pn0f+emMriX8zHur3rc8Ckhu9X0hJU8fNR+m5n5VvgY=
 			</data>
 		</dict>
 		<key>fi.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5X2tZgxqvvXX44qojsvL0XJ6RZHrdsZBGAWef74qaUE=
+			WWsBQ+pF4C3OZBswl/02yga/SrEQYhtAiaFg39xhom4=
 			</data>
 		</dict>
 		<key>fr-CA.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1rOC1dI83osK6pUutgWnSOnHLrcRiEZlMQrnKVVHSag=
+			saZBZ8fWN66UsFv0i6Aqorilt5t54DhYtEPNczloSE8=
 			</data>
 		</dict>
 		<key>fr.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sUPKHbbIChSchadpbwWQdlMB96LR+/9yQJxQOFEfVoc=
+			0XRlpuXilh67WJZ7uTgGclbek/9kZJNM+/KRKWJNiMI=
 			</data>
 		</dict>
 		<key>hr.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EURIfFXmg/uwBE9KI/z7b5OhiYIoLl9+sLKREcpmXcU=
+			U7l3kIbrnGsP6tUizc2H5pCMwY5gnJvtMlBeZCZCJfQ=
 			</data>
 		</dict>
 		<key>hu.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			133XseHoDakw0KnOKettT8YSiz2rv5azvsN3FO3K3zQ=
+			UHS1wkEw7DmvjA0v+9J9VRIkR2rLN8EZWmU0QNPLd4Y=
 			</data>
 		</dict>
 		<key>id.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Bo77rQoBaKOVvxECmrd8xXE+NYxP0+QUUU31ORR4Y+8=
+			rrfrWkyKMfaXRj/IFQsDGG8ikV2PAs9EDJE/gefweS0=
 			</data>
 		</dict>
 		<key>is.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FNLfIZfHk/6v2upnZYyJc6UiyKTBXmT15R8KW4ZW7mk=
+			+VNI19azXG+Tyszc6hWqhMXPC3oT4P0oeU29QlyEZZI=
 			</data>
 		</dict>
 		<key>it.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7VoZF54RUmjahtJ2qQVeCd+7cvMPr49lvnTqYQH38H0=
+			U1faIJR8516mfDAEC6BGK74+UCpFDhnavHYMrg/cjLE=
 			</data>
 		</dict>
 		<key>ja.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rNWxe/+obDy8ctFN+DiDjeNImywX5JbUC+6hibXmejw=
+			Wy2rZHES5sXs7piCGrQoVUURZNQmg0UqK5ZWlpJG0gw=
 			</data>
 		</dict>
 		<key>ko.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4Ps5CxCRz788cf3dsnFm2J+qEubvvxFPlLrcTxSjQCg=
+			vrb1RCSL0ZjF725i6JWCv1Z3hCeX+81Pxhlc9O1zK/0=
 			</data>
 		</dict>
 		<key>lt.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mrK/itC3ZMPwZtSVc6Fhx8W+RqfC6TwQCQRsDzPZaa4=
+			wmgTA9DRQ63sd5HMQDEikRb0jI5NCMYfSNUrb3FWv2s=
 			</data>
 		</dict>
 		<key>lv.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uRJivSOAbiDMS1oVMyUDYRcw5ON5SwQ5xYbEvDfDqPc=
+			WyUptn7eJ9CBcR8FtW0RMMeegf3TMHrq7A7X6AEFv8c=
 			</data>
 		</dict>
 		<key>ms.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cr3q8xqUs+edChWnKDoyjcKohTAtew96mxSOPBmdUuw=
+			YCCHv0N9JXoTJnU8fOOLFGRJS6CrdqgB28nstwPOGJ4=
 			</data>
 		</dict>
 		<key>nb.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8iwdJLKjAEnOhUynWmucuwtWkBnTt1kp0O3vHiisLgM=
+			5zGhaCh6SMAt//KvY9m7ZTB8oG4yB5ABAJ4j0vCopcc=
 			</data>
 		</dict>
 		<key>nl.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			10R8nu5sRmY4JvlLkAqnTwS50sLKLOQ/+dQNJiMpLfU=
+			rhkeKsjXS8783nmV/Lb3C/9uV89B+n/1/HiJu+y/C28=
 			</data>
 		</dict>
 		<key>pl.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FCAM9z9cBvRLYBmtUayDmNrz31UOWT6D7MHypD4e38U=
+			XHUlDnWI2iA8ps8nCCciVkJl21BYDnDF6z+utWry60o=
 			</data>
 		</dict>
 		<key>pt-BR.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DyLvzADYxKjlvBEFtW17dh3Vw1srLmjD/WOUwGE6+3A=
+			eBoklHtXetwxWskPopK7+VYHfkLFolcuTKnksf82C3E=
 			</data>
 		</dict>
 		<key>pt.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			b3aqbYGyOFzJzOHXP0OsBh8/kbovXYEtNuupNcwBmMI=
+			ALRBMEmjoAKcw8x8TnHg/jByXGNh/NX2/x+4vo4umA4=
 			</data>
 		</dict>
 		<key>ro.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6soAOTgWf2O9RPw4JAvxpYlKPVAlYlqP3nBJIxDKxPo=
+			ElWr5rf/uU4f0fu6lXG82hzIfahtaXhXd0hIulDxDQU=
 			</data>
 		</dict>
 		<key>ru.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qoEgwmyeTnrrJEU4bMOA+QQKWWcQw8+RPEcG/OAKt6s=
+			bCR3gdQFFJgSllpxzHHjr9QNEaC9fZgyKb3gR8MiokA=
 			</data>
 		</dict>
 		<key>sr.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mjD03YeoGs1WqIYlat6RdylmcCmuDKQuxPXfBk4sID8=
+			GXrYh5EDdtpqgDkWutGuzZbOxJrSDNSsnN+uTsusJb8=
 			</data>
 		</dict>
 		<key>strip-frameworks.sh</key>
@@ -2650,56 +2661,56 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kQFMMGs4LqRvFdID8ufZ9PajKNU0p8b5eA+S0gzMxsI=
+			rJgnV7q6dJyGtc3MxWlUu2eEfKyOfrjViNSzxx5jFnU=
 			</data>
 		</dict>
 		<key>th.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zC3kubgRpKFhLPHJSLDh00Fnb0Yejb56xZg/TsQmaxM=
+			4hAQE3VTiRuiVmGz3sU6m5qpNdpY60t9Yw3LrKF5s3c=
 			</data>
 		</dict>
 		<key>tr.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jBfw6eTQEqy93zBN0tm0ZGFTa9+XX1AMHHbAdYYxc+Q=
+			TZtMXwOJCjxYZOeluff/fCH+/29ij4ovCXsuueDAA4E=
 			</data>
 		</dict>
 		<key>uk.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3aK2MeIyEfmQ+QgyLnU3cS6MxZcBpazSVwsHopycBgU=
+			xmKU3wSuu6Sy5fVS7cc1DUUY3/JqA8WV3w0ifldulJE=
 			</data>
 		</dict>
 		<key>vi.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+J0rxgPyF1qTqxZPtVGspWjoxeGtZ+v+BOE/MOgmq5o=
+			PCjlDj1esJM1W9OToinchEjs0233RMgTUuSX7shiGcY=
 			</data>
 		</dict>
 		<key>zh-CN.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CzQkP/bmfU8JQeFVqokDfhAV4dUaLLWvrf9P6jm4UAY=
+			TpxCtUV37sLX2q4kikdDUu258+s2XWV9a03ZxS7x7dk=
 			</data>
 		</dict>
 		<key>zh-HK.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WZXCrp5CAnwkAh7SdbjOqxl8du69/nBl2pp6L/6VdL4=
+			JuFg9G/xKPEz9pN8IEfnFfw8lSIGfyg9uSI/DMSxrzQ=
 			</data>
 		</dict>
 		<key>zh-TW.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0b91aWw2716AQmhTRvBhk0FapU2JuoRZfCGb42EKlZw=
+			/OwwtOEqGpEzsVQdD52wBGz0F+amxiIbEsXgagtlltQ=
 			</data>
 		</dict>
 	</dict>
