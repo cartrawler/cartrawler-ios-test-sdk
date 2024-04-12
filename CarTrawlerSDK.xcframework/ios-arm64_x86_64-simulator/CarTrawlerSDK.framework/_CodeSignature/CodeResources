@@ -72,6 +72,10 @@
 		<data>
 		GKFibBzZovG2ir36ZXmYNOOY7/8=
 		</data>
+		<key>CTCountdownTimerView.nib</key>
+		<data>
+		BKnQI8V8Koj690gQA1BNGoCuWzc=
+		</data>
 		<key>CTCurrency.csv</key>
 		<data>
 		1ZL6QbpYfHoJzexTitKPdcj9ONY=
@@ -1129,6 +1133,13 @@
 			<key>hash2</key>
 			<data>
 			gCu0O3lT6rz095KiqcV7Wo6O0PFIXIafzY+QycbK46w=
+			</data>
+		</dict>
+		<key>CTCountdownTimerView.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dogEzT3HG9q/gnWZrmvYUV0TjdVPKj+Z5SeOp+GDt9Y=
 			</data>
 		</dict>
 		<key>CTCurrency.csv</key>
