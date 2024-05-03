@@ -9324,8 +9324,8 @@ relocations:
   - { offsetInCU: 0xAE5, offset: 0x23BC57, size: 0x8, addend: 0x0, symName: '-[CTSearchFormView viewWillAppear:]', symObjAddr: 0x1034, symBinAddr: 0x1327D8, symSize: 0x34 }
   - { offsetInCU: 0xB24, offset: 0x23BC96, size: 0x8, addend: 0x0, symName: '-[CTSearchFormView updateWithViewModel:]', symObjAddr: 0x1068, symBinAddr: 0x13280C, symSize: 0x1268 }
   - { offsetInCU: 0xB7F, offset: 0x23BCF1, size: 0x8, addend: 0x0, symName: '-[CTSearchFormView displayValidationErrors:]', symObjAddr: 0x22D0, symBinAddr: 0x133A74, symSize: 0x234 }
-  - { offsetInCU: 0xBD5, offset: 0x23BD47, size: 0x8, addend: 0x0, symName: '-[CTSearchFormView textFieldShouldBeginEditing:]', symObjAddr: 0x2504, symBinAddr: 0x133CA8, symSize: 0x118 }
-  - { offsetInCU: 0xC1E, offset: 0x23BD90, size: 0x8, addend: 0x0, symName: '-[CTSearchFormView textFieldDidBeginEditing:]', symObjAddr: 0x261C, symBinAddr: 0x133DC0, symSize: 0x19C }
+  - { offsetInCU: 0xBD5, offset: 0x23BD47, size: 0x8, addend: 0x0, symName: '-[CTSearchFormView textFieldShouldBeginEditing:]', symObjAddr: 0x2504, symBinAddr: 0x133CA8, symSize: 0x10C }
+  - { offsetInCU: 0xC1E, offset: 0x23BD90, size: 0x8, addend: 0x0, symName: '-[CTSearchFormView textFieldDidBeginEditing:]', symObjAddr: 0x2610, symBinAddr: 0x133DB4, symSize: 0x1A8 }
   - { offsetInCU: 0xC63, offset: 0x23BDD5, size: 0x8, addend: 0x0, symName: '-[CTSearchFormView textFieldDidEndEditing:]', symObjAddr: 0x27B8, symBinAddr: 0x133F5C, symSize: 0x10C }
   - { offsetInCU: 0xCA8, offset: 0x23BE1A, size: 0x8, addend: 0x0, symName: '-[CTSearchFormView textField:shouldChangeCharactersInRange:replacementString:]', symObjAddr: 0x28C4, symBinAddr: 0x134068, symSize: 0x170 }
   - { offsetInCU: 0xD4F, offset: 0x23BEC1, size: 0x8, addend: 0x0, symName: '-[CTSearchFormView tableView:heightForRowAtIndexPath:]', symObjAddr: 0x2A34, symBinAddr: 0x1341D8, symSize: 0x10 }
