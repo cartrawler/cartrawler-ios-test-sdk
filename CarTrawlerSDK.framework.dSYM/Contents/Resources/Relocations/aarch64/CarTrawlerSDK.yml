@@ -1,6 +1,6 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/uxui/Library/Developer/Xcode/DerivedData/GenericiOS-cyzzvgymmcnawcebiwlynxqebdru/Build/Intermediates.noindex/ArchiveIntermediates/CarTrawlerSDK/InstallationBuildProductsLocation/Library/Frameworks/CarTrawlerSDK.framework/CarTrawlerSDK'
+binary-path:     '/Users/gharte/Library/Developer/Xcode/DerivedData/GenericiOS-ahokwsvbaisgefbedkeovcvqjehi/Build/Intermediates.noindex/ArchiveIntermediates/CarTrawlerSDK/InstallationBuildProductsLocation/Library/Frameworks/CarTrawlerSDK.framework/CarTrawlerSDK'
 relocations:
   - { offsetInCU: 0x34, offset: 0x5E027, size: 0x8, addend: 0x0, symName: _CarTrawlerSDKVersionString, symObjAddr: 0x0, symBinAddr: 0x1BD650, symSize: 0x0 }
   - { offsetInCU: 0x69, offset: 0x5E05C, size: 0x8, addend: 0x0, symName: _CarTrawlerSDKVersionNumber, symObjAddr: 0x38, symBinAddr: 0x1BD688, symSize: 0x0 }
@@ -2097,52 +2097,52 @@ relocations:
   - { offsetInCU: 0x8ED, offset: 0xDAD33, size: 0x8, addend: 0x0, symName: '-[CTEcoAlternativeUpsellBannerViewModel vehicleURL]', symObjAddr: 0x288, symBinAddr: 0x65AF8, symSize: 0x8 }
   - { offsetInCU: 0x924, offset: 0xDAD6A, size: 0x8, addend: 0x0, symName: '-[CTEcoAlternativeUpsellBannerViewModel setVehicleURL:]', symObjAddr: 0x290, symBinAddr: 0x65B00, symSize: 0xC }
   - { offsetInCU: 0x965, offset: 0xDADAB, size: 0x8, addend: 0x0, symName: '-[CTEcoAlternativeUpsellBannerViewModel .cxx_destruct]', symObjAddr: 0x29C, symBinAddr: 0x65B0C, symSize: 0x60 }
-  - { offsetInCU: 0x35, offset: 0xDCA79, size: 0x8, addend: 0x0, symName: _CTBaseEndpointDev, symObjAddr: 0xBC8, symBinAddr: 0x245348, symSize: 0x0 }
-  - { offsetInCU: 0x55, offset: 0xDCA99, size: 0x8, addend: 0x0, symName: _CTBaseEndpointProd, symObjAddr: 0xBD0, symBinAddr: 0x245350, symSize: 0x0 }
-  - { offsetInCU: 0x6B, offset: 0xDCAAF, size: 0x8, addend: 0x0, symName: _CTBaseEndpointProdAlternativePayment, symObjAddr: 0xBD8, symBinAddr: 0x245358, symSize: 0x0 }
-  - { offsetInCU: 0x81, offset: 0xDCAC5, size: 0x8, addend: 0x0, symName: _CTProductionAPI, symObjAddr: 0xBE0, symBinAddr: 0x245360, symSize: 0x0 }
-  - { offsetInCU: 0x97, offset: 0xDCADB, size: 0x8, addend: 0x0, symName: _CTPostBookingProductionAPI, symObjAddr: 0xBE8, symBinAddr: 0x245368, symSize: 0x0 }
-  - { offsetInCU: 0xAD, offset: 0xDCAF1, size: 0x8, addend: 0x0, symName: _CTPaymentOfflineMode, symObjAddr: 0xBF0, symBinAddr: 0x245370, symSize: 0x0 }
-  - { offsetInCU: 0xC3, offset: 0xDCB07, size: 0x8, addend: 0x0, symName: _CTOfflineModeAPI, symObjAddr: 0xBF8, symBinAddr: 0x245378, symSize: 0x0 }
-  - { offsetInCU: 0xD9, offset: 0xDCB1D, size: 0x8, addend: 0x0, symName: _CTRemoteMockAPI, symObjAddr: 0xC00, symBinAddr: 0x245380, symSize: 0x0 }
-  - { offsetInCU: 0xEF, offset: 0xDCB33, size: 0x8, addend: 0x0, symName: _CTTestAPI, symObjAddr: 0xC08, symBinAddr: 0x245388, symSize: 0x0 }
-  - { offsetInCU: 0x105, offset: 0xDCB49, size: 0x8, addend: 0x0, symName: _CTPaymentFormDev, symObjAddr: 0xC10, symBinAddr: 0x245390, symSize: 0x0 }
-  - { offsetInCU: 0x11B, offset: 0xDCB5F, size: 0x8, addend: 0x0, symName: _CTPaymentFormProduction, symObjAddr: 0xC18, symBinAddr: 0x245398, symSize: 0x0 }
-  - { offsetInCU: 0x131, offset: 0xDCB75, size: 0x8, addend: 0x0, symName: _CTApplePayWebViewDev, symObjAddr: 0xC20, symBinAddr: 0x2453A0, symSize: 0x0 }
-  - { offsetInCU: 0x147, offset: 0xDCB8B, size: 0x8, addend: 0x0, symName: _CTApplePayWebViewProduction, symObjAddr: 0xC28, symBinAddr: 0x2453A8, symSize: 0x0 }
-  - { offsetInCU: 0x15D, offset: 0xDCBA1, size: 0x8, addend: 0x0, symName: _CTBookingAPIDev, symObjAddr: 0xC30, symBinAddr: 0x2453B0, symSize: 0x0 }
-  - { offsetInCU: 0x173, offset: 0xDCBB7, size: 0x8, addend: 0x0, symName: _CTBookingAPIProduction, symObjAddr: 0xC38, symBinAddr: 0x2453B8, symSize: 0x0 }
-  - { offsetInCU: 0x189, offset: 0xDCBCD, size: 0x8, addend: 0x0, symName: _CTMapWebViewDev, symObjAddr: 0xC40, symBinAddr: 0x2453C0, symSize: 0x0 }
-  - { offsetInCU: 0x19F, offset: 0xDCBE3, size: 0x8, addend: 0x0, symName: _CTMapWebViewProduction, symObjAddr: 0xC48, symBinAddr: 0x2453C8, symSize: 0x0 }
-  - { offsetInCU: 0x1B5, offset: 0xDCBF9, size: 0x8, addend: 0x0, symName: _CTBookingConfirmed, symObjAddr: 0xC50, symBinAddr: 0x2453D0, symSize: 0x0 }
-  - { offsetInCU: 0x1CB, offset: 0xDCC0F, size: 0x8, addend: 0x0, symName: _CTBookingFailed, symObjAddr: 0xC58, symBinAddr: 0x2453D8, symSize: 0x0 }
-  - { offsetInCU: 0x1E1, offset: 0xDCC25, size: 0x8, addend: 0x0, symName: _CTBookingUnknown, symObjAddr: 0xC60, symBinAddr: 0x2453E0, symSize: 0x0 }
-  - { offsetInCU: 0x1F7, offset: 0xDCC3B, size: 0x8, addend: 0x0, symName: _CTHeader, symObjAddr: 0xC68, symBinAddr: 0x2453E8, symSize: 0x0 }
-  - { offsetInCU: 0x20D, offset: 0xDCC51, size: 0x8, addend: 0x0, symName: _CTMobileHeader, symObjAddr: 0xC70, symBinAddr: 0x2453F0, symSize: 0x0 }
-  - { offsetInCU: 0x223, offset: 0xDCC67, size: 0x8, addend: 0x0, symName: _CTInsuranceHeader, symObjAddr: 0xC78, symBinAddr: 0x2453F8, symSize: 0x0 }
-  - { offsetInCU: 0x239, offset: 0xDCC7D, size: 0x8, addend: 0x0, symName: _CTCancelHeader, symObjAddr: 0xC80, symBinAddr: 0x245400, symSize: 0x0 }
-  - { offsetInCU: 0x24F, offset: 0xDCC93, size: 0x8, addend: 0x0, symName: _CTRentalReqHeader, symObjAddr: 0xC88, symBinAddr: 0x245408, symSize: 0x0 }
-  - { offsetInCU: 0x265, offset: 0xDCCA9, size: 0x8, addend: 0x0, symName: _CTGetExistingBookingHeader, symObjAddr: 0xC90, symBinAddr: 0x245410, symSize: 0x0 }
-  - { offsetInCU: 0x27B, offset: 0xDCCBF, size: 0x8, addend: 0x0, symName: _CTLocationSearchHeader, symObjAddr: 0xC98, symBinAddr: 0x245418, symSize: 0x0 }
-  - { offsetInCU: 0x291, offset: 0xDCCD5, size: 0x8, addend: 0x0, symName: _CTTestTarget, symObjAddr: 0xCA0, symBinAddr: 0x245420, symSize: 0x0 }
-  - { offsetInCU: 0x2A7, offset: 0xDCCEB, size: 0x8, addend: 0x0, symName: _CTProductionTarget, symObjAddr: 0xCA8, symBinAddr: 0x245428, symSize: 0x0 }
-  - { offsetInCU: 0x2BD, offset: 0xDCD01, size: 0x8, addend: 0x0, symName: _CTAvailRequestDateFormat, symObjAddr: 0xCB0, symBinAddr: 0x245430, symSize: 0x0 }
-  - { offsetInCU: 0x2D3, offset: 0xDCD17, size: 0x8, addend: 0x0, symName: _CTDisplayDateFormat, symObjAddr: 0xCB8, symBinAddr: 0x245438, symSize: 0x0 }
-  - { offsetInCU: 0x2E9, offset: 0xDCD2D, size: 0x8, addend: 0x0, symName: _CTDriverAgeYoungMin, symObjAddr: 0xD10, symBinAddr: 0x1C1C20, symSize: 0x0 }
-  - { offsetInCU: 0x30B, offset: 0xDCD4F, size: 0x8, addend: 0x0, symName: _CTDriverAgeYoungMax, symObjAddr: 0xD18, symBinAddr: 0x1C1C28, symSize: 0x0 }
-  - { offsetInCU: 0x321, offset: 0xDCD65, size: 0x8, addend: 0x0, symName: _CTDriverAgeMidMin, symObjAddr: 0xD20, symBinAddr: 0x1C1C30, symSize: 0x0 }
-  - { offsetInCU: 0x337, offset: 0xDCD7B, size: 0x8, addend: 0x0, symName: _CTDriverAgeMidMax, symObjAddr: 0xD28, symBinAddr: 0x1C1C38, symSize: 0x0 }
-  - { offsetInCU: 0x34D, offset: 0xDCD91, size: 0x8, addend: 0x0, symName: _CTDriverAgeElder, symObjAddr: 0xD30, symBinAddr: 0x1C1C40, symSize: 0x0 }
-  - { offsetInCU: 0x363, offset: 0xDCDA7, size: 0x8, addend: 0x0, symName: _CTProductionAbandonment, symObjAddr: 0xCC0, symBinAddr: 0x245440, symSize: 0x0 }
-  - { offsetInCU: 0x379, offset: 0xDCDBD, size: 0x8, addend: 0x0, symName: _CTProductionAbandonmentEndPoint, symObjAddr: 0xCC8, symBinAddr: 0x245448, symSize: 0x0 }
-  - { offsetInCU: 0x38F, offset: 0xDCDD3, size: 0x8, addend: 0x0, symName: _CTDidAddVehicleNotification, symObjAddr: 0xCD0, symBinAddr: 0x245450, symSize: 0x0 }
-  - { offsetInCU: 0x3A5, offset: 0xDCDE9, size: 0x8, addend: 0x0, symName: _CTDidCancelInPathVehAvailRequest, symObjAddr: 0xCD8, symBinAddr: 0x245458, symSize: 0x0 }
-  - { offsetInCU: 0x3BB, offset: 0xDCDFF, size: 0x8, addend: 0x0, symName: _CTSupplierImageURL, symObjAddr: 0xCE0, symBinAddr: 0x245460, symSize: 0x0 }
-  - { offsetInCU: 0x3D1, offset: 0xDCE15, size: 0x8, addend: 0x0, symName: _CTSupplierSuffixImageURL, symObjAddr: 0xCE8, symBinAddr: 0x245468, symSize: 0x0 }
-  - { offsetInCU: 0x3E7, offset: 0xDCE2B, size: 0x8, addend: 0x0, symName: _kAllianzPrivacyProductDisclosureURL, symObjAddr: 0xCF0, symBinAddr: 0x245470, symSize: 0x0 }
-  - { offsetInCU: 0x3FD, offset: 0xDCE41, size: 0x8, addend: 0x0, symName: _kAllianzFinancialServicesURL, symObjAddr: 0xCF8, symBinAddr: 0x245478, symSize: 0x0 }
-  - { offsetInCU: 0x413, offset: 0xDCE57, size: 0x8, addend: 0x0, symName: _kAllianzPrivacyPolicyURL, symObjAddr: 0xD00, symBinAddr: 0x245480, symSize: 0x0 }
-  - { offsetInCU: 0x429, offset: 0xDCE6D, size: 0x8, addend: 0x0, symName: _CTPaymentParams, symObjAddr: 0xD08, symBinAddr: 0x245488, symSize: 0x0 }
+  - { offsetInCU: 0x35, offset: 0xDCA79, size: 0x8, addend: 0x0, symName: _CTBaseEndpointDev, symObjAddr: 0xB78, symBinAddr: 0x245348, symSize: 0x0 }
+  - { offsetInCU: 0x55, offset: 0xDCA99, size: 0x8, addend: 0x0, symName: _CTBaseEndpointProd, symObjAddr: 0xB80, symBinAddr: 0x245350, symSize: 0x0 }
+  - { offsetInCU: 0x6B, offset: 0xDCAAF, size: 0x8, addend: 0x0, symName: _CTBaseEndpointProdAlternativePayment, symObjAddr: 0xB88, symBinAddr: 0x245358, symSize: 0x0 }
+  - { offsetInCU: 0x81, offset: 0xDCAC5, size: 0x8, addend: 0x0, symName: _CTProductionAPI, symObjAddr: 0xB90, symBinAddr: 0x245360, symSize: 0x0 }
+  - { offsetInCU: 0x97, offset: 0xDCADB, size: 0x8, addend: 0x0, symName: _CTPostBookingProductionAPI, symObjAddr: 0xB98, symBinAddr: 0x245368, symSize: 0x0 }
+  - { offsetInCU: 0xAD, offset: 0xDCAF1, size: 0x8, addend: 0x0, symName: _CTPaymentOfflineMode, symObjAddr: 0xBA0, symBinAddr: 0x245370, symSize: 0x0 }
+  - { offsetInCU: 0xC3, offset: 0xDCB07, size: 0x8, addend: 0x0, symName: _CTOfflineModeAPI, symObjAddr: 0xBA8, symBinAddr: 0x245378, symSize: 0x0 }
+  - { offsetInCU: 0xD9, offset: 0xDCB1D, size: 0x8, addend: 0x0, symName: _CTRemoteMockAPI, symObjAddr: 0xBB0, symBinAddr: 0x245380, symSize: 0x0 }
+  - { offsetInCU: 0xEF, offset: 0xDCB33, size: 0x8, addend: 0x0, symName: _CTTestAPI, symObjAddr: 0xBB8, symBinAddr: 0x245388, symSize: 0x0 }
+  - { offsetInCU: 0x105, offset: 0xDCB49, size: 0x8, addend: 0x0, symName: _CTPaymentFormDev, symObjAddr: 0xBC0, symBinAddr: 0x245390, symSize: 0x0 }
+  - { offsetInCU: 0x11B, offset: 0xDCB5F, size: 0x8, addend: 0x0, symName: _CTPaymentFormProduction, symObjAddr: 0xBC8, symBinAddr: 0x245398, symSize: 0x0 }
+  - { offsetInCU: 0x131, offset: 0xDCB75, size: 0x8, addend: 0x0, symName: _CTApplePayWebViewDev, symObjAddr: 0xBD0, symBinAddr: 0x2453A0, symSize: 0x0 }
+  - { offsetInCU: 0x147, offset: 0xDCB8B, size: 0x8, addend: 0x0, symName: _CTApplePayWebViewProduction, symObjAddr: 0xBD8, symBinAddr: 0x2453A8, symSize: 0x0 }
+  - { offsetInCU: 0x15D, offset: 0xDCBA1, size: 0x8, addend: 0x0, symName: _CTBookingAPIDev, symObjAddr: 0xBE0, symBinAddr: 0x2453B0, symSize: 0x0 }
+  - { offsetInCU: 0x173, offset: 0xDCBB7, size: 0x8, addend: 0x0, symName: _CTBookingAPIProduction, symObjAddr: 0xBE8, symBinAddr: 0x2453B8, symSize: 0x0 }
+  - { offsetInCU: 0x189, offset: 0xDCBCD, size: 0x8, addend: 0x0, symName: _CTMapWebViewDev, symObjAddr: 0xBF0, symBinAddr: 0x2453C0, symSize: 0x0 }
+  - { offsetInCU: 0x19F, offset: 0xDCBE3, size: 0x8, addend: 0x0, symName: _CTMapWebViewProduction, symObjAddr: 0xBF8, symBinAddr: 0x2453C8, symSize: 0x0 }
+  - { offsetInCU: 0x1B5, offset: 0xDCBF9, size: 0x8, addend: 0x0, symName: _CTBookingConfirmed, symObjAddr: 0xC00, symBinAddr: 0x2453D0, symSize: 0x0 }
+  - { offsetInCU: 0x1CB, offset: 0xDCC0F, size: 0x8, addend: 0x0, symName: _CTBookingFailed, symObjAddr: 0xC08, symBinAddr: 0x2453D8, symSize: 0x0 }
+  - { offsetInCU: 0x1E1, offset: 0xDCC25, size: 0x8, addend: 0x0, symName: _CTBookingUnknown, symObjAddr: 0xC10, symBinAddr: 0x2453E0, symSize: 0x0 }
+  - { offsetInCU: 0x1F7, offset: 0xDCC3B, size: 0x8, addend: 0x0, symName: _CTHeader, symObjAddr: 0xC18, symBinAddr: 0x2453E8, symSize: 0x0 }
+  - { offsetInCU: 0x20D, offset: 0xDCC51, size: 0x8, addend: 0x0, symName: _CTMobileHeader, symObjAddr: 0xC20, symBinAddr: 0x2453F0, symSize: 0x0 }
+  - { offsetInCU: 0x223, offset: 0xDCC67, size: 0x8, addend: 0x0, symName: _CTInsuranceHeader, symObjAddr: 0xC28, symBinAddr: 0x2453F8, symSize: 0x0 }
+  - { offsetInCU: 0x239, offset: 0xDCC7D, size: 0x8, addend: 0x0, symName: _CTCancelHeader, symObjAddr: 0xC30, symBinAddr: 0x245400, symSize: 0x0 }
+  - { offsetInCU: 0x24F, offset: 0xDCC93, size: 0x8, addend: 0x0, symName: _CTRentalReqHeader, symObjAddr: 0xC38, symBinAddr: 0x245408, symSize: 0x0 }
+  - { offsetInCU: 0x265, offset: 0xDCCA9, size: 0x8, addend: 0x0, symName: _CTGetExistingBookingHeader, symObjAddr: 0xC40, symBinAddr: 0x245410, symSize: 0x0 }
+  - { offsetInCU: 0x27B, offset: 0xDCCBF, size: 0x8, addend: 0x0, symName: _CTLocationSearchHeader, symObjAddr: 0xC48, symBinAddr: 0x245418, symSize: 0x0 }
+  - { offsetInCU: 0x291, offset: 0xDCCD5, size: 0x8, addend: 0x0, symName: _CTTestTarget, symObjAddr: 0xC50, symBinAddr: 0x245420, symSize: 0x0 }
+  - { offsetInCU: 0x2A7, offset: 0xDCCEB, size: 0x8, addend: 0x0, symName: _CTProductionTarget, symObjAddr: 0xC58, symBinAddr: 0x245428, symSize: 0x0 }
+  - { offsetInCU: 0x2BD, offset: 0xDCD01, size: 0x8, addend: 0x0, symName: _CTAvailRequestDateFormat, symObjAddr: 0xC60, symBinAddr: 0x245430, symSize: 0x0 }
+  - { offsetInCU: 0x2D3, offset: 0xDCD17, size: 0x8, addend: 0x0, symName: _CTDisplayDateFormat, symObjAddr: 0xC68, symBinAddr: 0x245438, symSize: 0x0 }
+  - { offsetInCU: 0x2E9, offset: 0xDCD2D, size: 0x8, addend: 0x0, symName: _CTDriverAgeYoungMin, symObjAddr: 0xCC0, symBinAddr: 0x1C1C20, symSize: 0x0 }
+  - { offsetInCU: 0x30B, offset: 0xDCD4F, size: 0x8, addend: 0x0, symName: _CTDriverAgeYoungMax, symObjAddr: 0xCC8, symBinAddr: 0x1C1C28, symSize: 0x0 }
+  - { offsetInCU: 0x321, offset: 0xDCD65, size: 0x8, addend: 0x0, symName: _CTDriverAgeMidMin, symObjAddr: 0xCD0, symBinAddr: 0x1C1C30, symSize: 0x0 }
+  - { offsetInCU: 0x337, offset: 0xDCD7B, size: 0x8, addend: 0x0, symName: _CTDriverAgeMidMax, symObjAddr: 0xCD8, symBinAddr: 0x1C1C38, symSize: 0x0 }
+  - { offsetInCU: 0x34D, offset: 0xDCD91, size: 0x8, addend: 0x0, symName: _CTDriverAgeElder, symObjAddr: 0xCE0, symBinAddr: 0x1C1C40, symSize: 0x0 }
+  - { offsetInCU: 0x363, offset: 0xDCDA7, size: 0x8, addend: 0x0, symName: _CTProductionAbandonment, symObjAddr: 0xC70, symBinAddr: 0x245440, symSize: 0x0 }
+  - { offsetInCU: 0x379, offset: 0xDCDBD, size: 0x8, addend: 0x0, symName: _CTProductionAbandonmentEndPoint, symObjAddr: 0xC78, symBinAddr: 0x245448, symSize: 0x0 }
+  - { offsetInCU: 0x38F, offset: 0xDCDD3, size: 0x8, addend: 0x0, symName: _CTDidAddVehicleNotification, symObjAddr: 0xC80, symBinAddr: 0x245450, symSize: 0x0 }
+  - { offsetInCU: 0x3A5, offset: 0xDCDE9, size: 0x8, addend: 0x0, symName: _CTDidCancelInPathVehAvailRequest, symObjAddr: 0xC88, symBinAddr: 0x245458, symSize: 0x0 }
+  - { offsetInCU: 0x3BB, offset: 0xDCDFF, size: 0x8, addend: 0x0, symName: _CTSupplierImageURL, symObjAddr: 0xC90, symBinAddr: 0x245460, symSize: 0x0 }
+  - { offsetInCU: 0x3D1, offset: 0xDCE15, size: 0x8, addend: 0x0, symName: _CTSupplierSuffixImageURL, symObjAddr: 0xC98, symBinAddr: 0x245468, symSize: 0x0 }
+  - { offsetInCU: 0x3E7, offset: 0xDCE2B, size: 0x8, addend: 0x0, symName: _kAllianzPrivacyProductDisclosureURL, symObjAddr: 0xCA0, symBinAddr: 0x245470, symSize: 0x0 }
+  - { offsetInCU: 0x3FD, offset: 0xDCE41, size: 0x8, addend: 0x0, symName: _kAllianzFinancialServicesURL, symObjAddr: 0xCA8, symBinAddr: 0x245478, symSize: 0x0 }
+  - { offsetInCU: 0x413, offset: 0xDCE57, size: 0x8, addend: 0x0, symName: _kAllianzPrivacyPolicyURL, symObjAddr: 0xCB0, symBinAddr: 0x245480, symSize: 0x0 }
+  - { offsetInCU: 0x429, offset: 0xDCE6D, size: 0x8, addend: 0x0, symName: _CTPaymentParams, symObjAddr: 0xCB8, symBinAddr: 0x245488, symSize: 0x0 }
   - { offsetInCU: 0x27, offset: 0xDCEA5, size: 0x8, addend: 0x0, symName: '+[CTGradientView layerClass]', symObjAddr: 0x0, symBinAddr: 0x65B6C, symSize: 0xC }
   - { offsetInCU: 0x83, offset: 0xDCF01, size: 0x8, addend: 0x0, symName: '+[CTGradientView layerClass]', symObjAddr: 0x0, symBinAddr: 0x65B6C, symSize: 0xC }
   - { offsetInCU: 0xB6, offset: 0xDCF34, size: 0x8, addend: 0x0, symName: '-[CTGradientView setGradient:primaryColor:secondaryColor:]', symObjAddr: 0xC, symBinAddr: 0x65B78, symSize: 0x2D4 }
@@ -3492,7 +3492,7 @@ relocations:
   - { offsetInCU: 0x14B, offset: 0x1200AC, size: 0x8, addend: 0x0, symName: '-[CTAbandonmentI18n .cxx_destruct]', symObjAddr: 0xB8, symBinAddr: 0x889DC, symSize: 0x30 }
   - { offsetInCU: 0x27, offset: 0x120123, size: 0x8, addend: 0x0, symName: '+[CTImageCache sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x88A0C, symSize: 0x70 }
   - { offsetInCU: 0x35, offset: 0x120131, size: 0x8, addend: 0x0, symName: '+[CTImageCache sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x88A0C, symSize: 0x70 }
-  - { offsetInCU: 0x5F, offset: 0x12015B, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0xC310, symBinAddr: 0x329748, symSize: 0x0 }
+  - { offsetInCU: 0x5F, offset: 0x12015B, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0xC280, symBinAddr: 0x329748, symSize: 0x0 }
   - { offsetInCU: 0xA3, offset: 0x12019F, size: 0x8, addend: 0x0, symName: '-[CTImageCache cachedImage:completion:]', symObjAddr: 0x70, symBinAddr: 0x88A7C, symSize: 0xC }
   - { offsetInCU: 0xF2, offset: 0x1201EE, size: 0x8, addend: 0x0, symName: '-[CTImageCache cachedImage:identifier:completion:]', symObjAddr: 0x7C, symBinAddr: 0x88A88, symSize: 0x1D8 }
   - { offsetInCU: 0x175, offset: 0x120271, size: 0x8, addend: 0x0, symName: '___50-[CTImageCache cachedImage:identifier:completion:]_block_invoke', symObjAddr: 0x254, symBinAddr: 0x88C60, symSize: 0x108 }
@@ -5135,8 +5135,8 @@ relocations:
   - { offsetInCU: 0x1145, offset: 0x173444, size: 0x8, addend: 0x0, symName: '-[CTBookingCardView .cxx_destruct]', symObjAddr: 0x600, symBinAddr: 0xBA280, symSize: 0x9C }
   - { offsetInCU: 0x27, offset: 0x1734BB, size: 0x8, addend: 0x0, symName: '+[CTLocalisedStrings instance]', symObjAddr: 0x0, symBinAddr: 0xBA31C, symSize: 0x40 }
   - { offsetInCU: 0x35, offset: 0x1734C9, size: 0x8, addend: 0x0, symName: '+[CTLocalisedStrings instance]', symObjAddr: 0x0, symBinAddr: 0xBA31C, symSize: 0x40 }
-  - { offsetInCU: 0x5F, offset: 0x1734F3, size: 0x8, addend: 0x0, symName: _instance.sharedInstance, symObjAddr: 0xA6A8, symBinAddr: 0x329750, symSize: 0x0 }
-  - { offsetInCU: 0x75, offset: 0x173509, size: 0x8, addend: 0x0, symName: _instance.onceToken, symObjAddr: 0xA6B0, symBinAddr: 0x329758, symSize: 0x0 }
+  - { offsetInCU: 0x5F, offset: 0x1734F3, size: 0x8, addend: 0x0, symName: _instance.sharedInstance, symObjAddr: 0xA618, symBinAddr: 0x329750, symSize: 0x0 }
+  - { offsetInCU: 0x75, offset: 0x173509, size: 0x8, addend: 0x0, symName: _instance.onceToken, symObjAddr: 0xA620, symBinAddr: 0x329758, symSize: 0x0 }
   - { offsetInCU: 0x19F, offset: 0x173633, size: 0x8, addend: 0x0, symName: '___30+[CTLocalisedStrings instance]_block_invoke', symObjAddr: 0x40, symBinAddr: 0xBA35C, symSize: 0x80 }
   - { offsetInCU: 0x1C6, offset: 0x17365A, size: 0x8, addend: 0x0, symName: '-[CTLocalisedStrings loadCMSIndex]', symObjAddr: 0xC0, symBinAddr: 0xBA3DC, symSize: 0x30 }
   - { offsetInCU: 0x1F9, offset: 0x17368D, size: 0x8, addend: 0x0, symName: '-[CTLocalisedStrings setLanguage:]', symObjAddr: 0xF0, symBinAddr: 0xBA40C, symSize: 0x70 }
@@ -5932,8 +5932,8 @@ relocations:
   - { offsetInCU: 0x1996, offset: 0x199C4F, size: 0x8, addend: 0x0, symName: '-[CTFloatLabeledTextField .cxx_destruct]', symObjAddr: 0x23D4, symBinAddr: 0xCF7E4, symSize: 0x118 }
   - { offsetInCU: 0x27, offset: 0x199E5B, size: 0x8, addend: 0x0, symName: '+[CTAppController instance]', symObjAddr: 0x0, symBinAddr: 0xCF8FC, symSize: 0x40 }
   - { offsetInCU: 0x3A, offset: 0x199E6E, size: 0x8, addend: 0x0, symName: '+[CTAppController instance]', symObjAddr: 0x0, symBinAddr: 0xCF8FC, symSize: 0x40 }
-  - { offsetInCU: 0x64, offset: 0x199E98, size: 0x8, addend: 0x0, symName: _instance.sharedInstance, symObjAddr: 0x35650, symBinAddr: 0x329760, symSize: 0x0 }
-  - { offsetInCU: 0x7A, offset: 0x199EAE, size: 0x8, addend: 0x0, symName: _instance.onceToken, symObjAddr: 0x35658, symBinAddr: 0x329768, symSize: 0x0 }
+  - { offsetInCU: 0x64, offset: 0x199E98, size: 0x8, addend: 0x0, symName: _instance.sharedInstance, symObjAddr: 0x355C8, symBinAddr: 0x329760, symSize: 0x0 }
+  - { offsetInCU: 0x7A, offset: 0x199EAE, size: 0x8, addend: 0x0, symName: _instance.onceToken, symObjAddr: 0x355D0, symBinAddr: 0x329768, symSize: 0x0 }
   - { offsetInCU: 0x233B, offset: 0x19C16F, size: 0x8, addend: 0x0, symName: '___27+[CTAppController instance]_block_invoke', symObjAddr: 0x40, symBinAddr: 0xCF93C, symSize: 0x110 }
   - { offsetInCU: 0x2362, offset: 0x19C196, size: 0x8, addend: 0x0, symName: '+[CTAppController dispatchAction:payload:message:]', symObjAddr: 0x150, symBinAddr: 0xCFA4C, symSize: 0x80 }
   - { offsetInCU: 0x23C1, offset: 0x19C1F5, size: 0x8, addend: 0x0, symName: '-[CTAppController dispatchAction:payload:message:]', symObjAddr: 0x1D0, symBinAddr: 0xCFACC, symSize: 0x124 }
@@ -11597,8 +11597,8 @@ relocations:
   - { offsetInCU: 0x1A2B, offset: 0x28433E, size: 0x8, addend: 0x0, symName: '-[CTStyle .cxx_destruct]', symObjAddr: 0x1084, symBinAddr: 0x1580F4, symSize: 0x180 }
   - { offsetInCU: 0x27, offset: 0x2844D5, size: 0x8, addend: 0x0, symName: '+[CarTrawlerSDK sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x158274, symSize: 0x74 }
   - { offsetInCU: 0x3A, offset: 0x2844E8, size: 0x8, addend: 0x0, symName: '+[CarTrawlerSDK sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x158274, symSize: 0x74 }
-  - { offsetInCU: 0x64, offset: 0x284512, size: 0x8, addend: 0x0, symName: _sharedInstance.once, symObjAddr: 0x37568, symBinAddr: 0x329770, symSize: 0x0 }
-  - { offsetInCU: 0x7A, offset: 0x284528, size: 0x8, addend: 0x0, symName: _sharedInstance._sharedInstance, symObjAddr: 0x37570, symBinAddr: 0x329778, symSize: 0x0 }
+  - { offsetInCU: 0x64, offset: 0x284512, size: 0x8, addend: 0x0, symName: _sharedInstance.once, symObjAddr: 0x374F0, symBinAddr: 0x329770, symSize: 0x0 }
+  - { offsetInCU: 0x7A, offset: 0x284528, size: 0x8, addend: 0x0, symName: _sharedInstance._sharedInstance, symObjAddr: 0x374F8, symBinAddr: 0x329778, symSize: 0x0 }
   - { offsetInCU: 0xF0C, offset: 0x2853BA, size: 0x8, addend: 0x0, symName: '___31+[CarTrawlerSDK sharedInstance]_block_invoke', symObjAddr: 0x74, symBinAddr: 0x1582E8, symSize: 0x2C }
   - { offsetInCU: 0xF4B, offset: 0x2853F9, size: 0x8, addend: 0x0, symName: '-[CarTrawlerSDK initPrivate]', symObjAddr: 0xA0, symBinAddr: 0x158314, symSize: 0x6C }
   - { offsetInCU: 0xF82, offset: 0x285430, size: 0x8, addend: 0x0, symName: '-[CarTrawlerSDK init]', symObjAddr: 0x10C, symBinAddr: 0x158380, symSize: 0x2C }
@@ -11751,10 +11751,10 @@ relocations:
   - { offsetInCU: 0x10DD, offset: 0x28D87C, size: 0x8, addend: 0x0, symName: '-[CTPartner .cxx_destruct]', symObjAddr: 0xA1C, symBinAddr: 0x15B424, symSize: 0x1BC }
   - { offsetInCU: 0x27, offset: 0x28D8F8, size: 0x8, addend: 0x0, symName: '+[FMDatabase databaseWithPath:]', symObjAddr: 0x0, symBinAddr: 0x15B5E0, symSize: 0x48 }
   - { offsetInCU: 0x48, offset: 0x28D919, size: 0x8, addend: 0x0, symName: '+[FMDatabase FMDBVersion]', symObjAddr: 0x224, symBinAddr: 0x15B804, symSize: 0x74 }
-  - { offsetInCU: 0x72, offset: 0x28D943, size: 0x8, addend: 0x0, symName: _FMDBVersion.once, symObjAddr: 0x18138, symBinAddr: 0x329780, symSize: 0x0 }
-  - { offsetInCU: 0x88, offset: 0x28D959, size: 0x8, addend: 0x0, symName: _FMDBVersion.FMDBVersionVal, symObjAddr: 0x18140, symBinAddr: 0x329788, symSize: 0x0 }
+  - { offsetInCU: 0x72, offset: 0x28D943, size: 0x8, addend: 0x0, symName: _FMDBVersion.once, symObjAddr: 0x18100, symBinAddr: 0x329780, symSize: 0x0 }
+  - { offsetInCU: 0x88, offset: 0x28D959, size: 0x8, addend: 0x0, symName: _FMDBVersion.FMDBVersionVal, symObjAddr: 0x18108, symBinAddr: 0x329788, symSize: 0x0 }
   - { offsetInCU: 0x113, offset: 0x28D9E4, size: 0x8, addend: 0x0, symName: '-[FMDatabase inSavePoint:]', symObjAddr: 0x2B1C, symBinAddr: 0x15E0FC, symSize: 0x138 }
-  - { offsetInCU: 0x13F, offset: 0x28DA10, size: 0x8, addend: 0x0, symName: '_inSavePoint:.savePointIdx', symObjAddr: 0x18148, symBinAddr: 0x329790, symSize: 0x0 }
+  - { offsetInCU: 0x13F, offset: 0x28DA10, size: 0x8, addend: 0x0, symName: '_inSavePoint:.savePointIdx', symObjAddr: 0x18110, symBinAddr: 0x329790, symSize: 0x0 }
   - { offsetInCU: 0xD67, offset: 0x28E638, size: 0x8, addend: 0x0, symName: '+[FMDatabase databaseWithPath:]', symObjAddr: 0x0, symBinAddr: 0x15B5E0, symSize: 0x48 }
   - { offsetInCU: 0xDAE, offset: 0x28E67F, size: 0x8, addend: 0x0, symName: '+[FMDatabase databaseWithURL:]', symObjAddr: 0x48, symBinAddr: 0x15B628, symSize: 0x48 }
   - { offsetInCU: 0xDF5, offset: 0x28E6C6, size: 0x8, addend: 0x0, symName: '-[FMDatabase init]', symObjAddr: 0x90, symBinAddr: 0x15B670, symSize: 0x8 }
@@ -11913,7 +11913,7 @@ relocations:
   - { offsetInCU: 0x7CC, offset: 0x292AA3, size: 0x8, addend: 0x0, symName: '-[FMDatabase(FMDatabaseAdditions) validateSQL:error:]', symObjAddr: 0x798, symBinAddr: 0x15F0D4, symSize: 0x144 }
   - { offsetInCU: 0x27, offset: 0x29322C, size: 0x8, addend: 0x0, symName: '+[FMDatabasePool databasePoolWithPath:]', symObjAddr: 0x0, symBinAddr: 0x15F218, symSize: 0x48 }
   - { offsetInCU: 0x35, offset: 0x29323A, size: 0x8, addend: 0x0, symName: '-[FMDatabasePool inSavePoint:]', symObjAddr: 0xD9C, symBinAddr: 0x15FEF4, symSize: 0x15C }
-  - { offsetInCU: 0x61, offset: 0x293266, size: 0x8, addend: 0x0, symName: '_inSavePoint:.savePointIdx', symObjAddr: 0x8610, symBinAddr: 0x329798, symSize: 0x0 }
+  - { offsetInCU: 0x61, offset: 0x293266, size: 0x8, addend: 0x0, symName: '_inSavePoint:.savePointIdx', symObjAddr: 0x85D8, symBinAddr: 0x329798, symSize: 0x0 }
   - { offsetInCU: 0x2ED, offset: 0x2934F2, size: 0x8, addend: 0x0, symName: '+[FMDatabasePool databasePoolWithPath:]', symObjAddr: 0x0, symBinAddr: 0x15F218, symSize: 0x48 }
   - { offsetInCU: 0x334, offset: 0x293539, size: 0x8, addend: 0x0, symName: '+[FMDatabasePool databasePoolWithURL:]', symObjAddr: 0x48, symBinAddr: 0x15F260, symSize: 0x74 }
   - { offsetInCU: 0x37B, offset: 0x293580, size: 0x8, addend: 0x0, symName: '+[FMDatabasePool databasePoolWithPath:flags:]', symObjAddr: 0xBC, symBinAddr: 0x15F2D4, symSize: 0x58 }
@@ -11961,7 +11961,7 @@ relocations:
   - { offsetInCU: 0x27, offset: 0x294B54, size: 0x8, addend: 0x0, symName: '+[FMDatabaseQueue databaseQueueWithPath:]', symObjAddr: 0x0, symBinAddr: 0x1600F4, symSize: 0x48 }
   - { offsetInCU: 0x41, offset: 0x294B6E, size: 0x8, addend: 0x0, symName: _kDispatchQueueSpecificKey, symObjAddr: 0x13C8, symBinAddr: 0x2480F8, symSize: 0x0 }
   - { offsetInCU: 0x69, offset: 0x294B96, size: 0x8, addend: 0x0, symName: '-[FMDatabaseQueue inSavePoint:]', symObjAddr: 0x924, symBinAddr: 0x1609AC, symSize: 0xDC }
-  - { offsetInCU: 0x95, offset: 0x294BC2, size: 0x8, addend: 0x0, symName: '_inSavePoint:.savePointIdx', symObjAddr: 0x83F0, symBinAddr: 0x3297A0, symSize: 0x0 }
+  - { offsetInCU: 0x95, offset: 0x294BC2, size: 0x8, addend: 0x0, symName: '_inSavePoint:.savePointIdx', symObjAddr: 0x83B8, symBinAddr: 0x3297A0, symSize: 0x0 }
   - { offsetInCU: 0x679, offset: 0x2951A6, size: 0x8, addend: 0x0, symName: '+[FMDatabaseQueue databaseQueueWithPath:]', symObjAddr: 0x0, symBinAddr: 0x1600F4, symSize: 0x48 }
   - { offsetInCU: 0x6D0, offset: 0x2951FD, size: 0x8, addend: 0x0, symName: '+[FMDatabaseQueue databaseQueueWithURL:]', symObjAddr: 0x48, symBinAddr: 0x16013C, symSize: 0x54 }
   - { offsetInCU: 0x717, offset: 0x295244, size: 0x8, addend: 0x0, symName: '+[FMDatabaseQueue databaseQueueWithPath:flags:]', symObjAddr: 0x9C, symBinAddr: 0x160190, symSize: 0x58 }
@@ -12237,7 +12237,7 @@ relocations:
   - { offsetInCU: 0x136, offset: 0x29E19B, size: 0x8, addend: 0x0, symName: '-[SPController setServiceProvider:]', symObjAddr: 0x74, symBinAddr: 0x16572C, symSize: 0xC }
   - { offsetInCU: 0x177, offset: 0x29E1DC, size: 0x8, addend: 0x0, symName: '-[SPController .cxx_destruct]', symObjAddr: 0x80, symBinAddr: 0x165738, symSize: 0xC }
   - { offsetInCU: 0x27, offset: 0x29E25C, size: 0x8, addend: 0x0, symName: '+[SPDataPersistence dataPersistenceForNamespace:]', symObjAddr: 0x0, symBinAddr: 0x165744, symSize: 0x10 }
-  - { offsetInCU: 0x41, offset: 0x29E276, size: 0x8, addend: 0x0, symName: _instances, symObjAddr: 0x6A10, symBinAddr: 0x3297A8, symSize: 0x0 }
+  - { offsetInCU: 0x41, offset: 0x29E276, size: 0x8, addend: 0x0, symName: _instances, symObjAddr: 0x69D8, symBinAddr: 0x3297A8, symSize: 0x0 }
   - { offsetInCU: 0xC7, offset: 0x29E2FC, size: 0x8, addend: 0x0, symName: _kSPSessionDictionaryPrefix, symObjAddr: 0x1608, symBinAddr: 0x2481F0, symSize: 0x0 }
   - { offsetInCU: 0x105, offset: 0x29E33A, size: 0x8, addend: 0x0, symName: _kFilename, symObjAddr: 0x1610, symBinAddr: 0x2481F8, symSize: 0x0 }
   - { offsetInCU: 0x11B, offset: 0x29E350, size: 0x8, addend: 0x0, symName: _kFilenameExt, symObjAddr: 0x1618, symBinAddr: 0x248200, symSize: 0x0 }
@@ -12709,7 +12709,7 @@ relocations:
   - { offsetInCU: 0x1FF, offset: 0x2ACE64, size: 0x8, addend: 0x0, symName: '-[SPLifecycleStateMachine payloadValuesFromEvent:state:]', symObjAddr: 0x364, symBinAddr: 0x16F41C, symSize: 0x8 }
   - { offsetInCU: 0x27, offset: 0x2AD21A, size: 0x8, addend: 0x0, symName: '+[SPLogger setDelegate:]', symObjAddr: 0x0, symBinAddr: 0x16F424, symSize: 0x54 }
   - { offsetInCU: 0x35, offset: 0x2AD228, size: 0x8, addend: 0x0, symName: '+[SPLogger shared]', symObjAddr: 0x350, symBinAddr: 0x16F774, symSize: 0x80 }
-  - { offsetInCU: 0x5F, offset: 0x2AD252, size: 0x8, addend: 0x0, symName: _shared.sharedLogger, symObjAddr: 0x3320, symBinAddr: 0x3297B0, symSize: 0x0 }
+  - { offsetInCU: 0x5F, offset: 0x2AD252, size: 0x8, addend: 0x0, symName: _shared.sharedLogger, symObjAddr: 0x32E8, symBinAddr: 0x3297B0, symSize: 0x0 }
   - { offsetInCU: 0x180, offset: 0x2AD373, size: 0x8, addend: 0x0, symName: '+[SPLogger setDelegate:]', symObjAddr: 0x0, symBinAddr: 0x16F424, symSize: 0x54 }
   - { offsetInCU: 0x1CF, offset: 0x2AD3C2, size: 0x8, addend: 0x0, symName: '+[SPLogger delegate]', symObjAddr: 0x54, symBinAddr: 0x16F478, symSize: 0x4C }
   - { offsetInCU: 0x212, offset: 0x2AD405, size: 0x8, addend: 0x0, symName: '+[SPLogger setLogLevel:]', symObjAddr: 0xA0, symBinAddr: 0x16F4C4, symSize: 0x50 }
@@ -13291,8 +13291,8 @@ relocations:
   - { offsetInCU: 0x6DF, offset: 0x2BCE75, size: 0x8, addend: 0x0, symName: '-[SPSessionState .cxx_destruct]', symObjAddr: 0x708, symBinAddr: 0x17BC64, symSize: 0x60 }
   - { offsetInCU: 0x27, offset: 0x2BD084, size: 0x8, addend: 0x0, symName: '+[SPSnowplow setupWithRemoteConfiguration:defaultConfigurationBundles:onSuccess:]', symObjAddr: 0x0, symBinAddr: 0x17BCC4, symSize: 0x138 }
   - { offsetInCU: 0x35, offset: 0x2BD092, size: 0x8, addend: 0x0, symName: '+[SPSnowplow sharedInstance]', symObjAddr: 0xDFC, symBinAddr: 0x17CAA8, symSize: 0x74 }
-  - { offsetInCU: 0x5F, offset: 0x2BD0BC, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x62A0, symBinAddr: 0x3297B8, symSize: 0x0 }
-  - { offsetInCU: 0x75, offset: 0x2BD0D2, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x62A8, symBinAddr: 0x3297C0, symSize: 0x0 }
+  - { offsetInCU: 0x5F, offset: 0x2BD0BC, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x6268, symBinAddr: 0x3297B8, symSize: 0x0 }
+  - { offsetInCU: 0x75, offset: 0x2BD0D2, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x6270, symBinAddr: 0x3297C0, symSize: 0x0 }
   - { offsetInCU: 0x249, offset: 0x2BD2A6, size: 0x8, addend: 0x0, symName: '+[SPSnowplow setupWithRemoteConfiguration:defaultConfigurationBundles:onSuccess:]', symObjAddr: 0x0, symBinAddr: 0x17BCC4, symSize: 0x138 }
   - { offsetInCU: 0x2B8, offset: 0x2BD315, size: 0x8, addend: 0x0, symName: '___81+[SPSnowplow setupWithRemoteConfiguration:defaultConfigurationBundles:onSuccess:]_block_invoke', symObjAddr: 0x138, symBinAddr: 0x17BDFC, symSize: 0x70 }
   - { offsetInCU: 0x346, offset: 0x2BD3A3, size: 0x8, addend: 0x0, symName: '+[SPSnowplow refreshIfRemoteUpdate:]', symObjAddr: 0x1C0, symBinAddr: 0x17BE6C, symSize: 0xC8 }
@@ -14130,7 +14130,7 @@ relocations:
   - { offsetInCU: 0x16C, offset: 0x2CFC6F, size: 0x8, addend: 0x0, symName: '-[SPWeakTimerTarget .cxx_destruct]', symObjAddr: 0xF4, symBinAddr: 0x18BDCC, symSize: 0x8 }
   - { offsetInCU: 0x27, offset: 0x2CFD76, size: 0x8, addend: 0x0, symName: '+[UIViewController(SPScreenView_SWIZZLE) load]', symObjAddr: 0x0, symBinAddr: 0x18BDD4, symSize: 0x6C }
   - { offsetInCU: 0x35, offset: 0x2CFD84, size: 0x8, addend: 0x0, symName: '+[UIViewController(SPScreenView_SWIZZLE) load]', symObjAddr: 0x0, symBinAddr: 0x18BDD4, symSize: 0x6C }
-  - { offsetInCU: 0x5B, offset: 0x2CFDAA, size: 0x8, addend: 0x0, symName: _load.onceToken, symObjAddr: 0x11460, symBinAddr: 0x3297C8, symSize: 0x0 }
+  - { offsetInCU: 0x5B, offset: 0x2CFDAA, size: 0x8, addend: 0x0, symName: _load.onceToken, symObjAddr: 0x11428, symBinAddr: 0x3297C8, symSize: 0x0 }
   - { offsetInCU: 0xD17, offset: 0x2D0A66, size: 0x8, addend: 0x0, symName: '___46+[UIViewController(SPScreenView_SWIZZLE) load]_block_invoke', symObjAddr: 0x6C, symBinAddr: 0x18BE40, symSize: 0xC8 }
   - { offsetInCU: 0xFA8, offset: 0x2D0CF7, size: 0x8, addend: 0x0, symName: '-[UIViewController(SPScreenView_SWIZZLE) SP_viewDidAppear:]', symObjAddr: 0x134, symBinAddr: 0x18BF08, symSize: 0x168 }
   - { offsetInCU: 0x1064, offset: 0x2D0DB3, size: 0x8, addend: 0x0, symName: '-[UIViewController(SPScreenView_SWIZZLE) _SP_validateString:]', symObjAddr: 0x29C, symBinAddr: 0x18C070, symSize: 0x2C }
