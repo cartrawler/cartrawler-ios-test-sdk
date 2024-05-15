@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>23E214</string>
+	<string>23E224</string>
 	<key>CFBundleCarTrawlerSDKVersion</key>
 	<string>15.2.0</string>
 	<key>CFBundleDevelopmentRegion</key>
@@ -44,6 +44,11 @@
 	<string>15E204a</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>10.15</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 	<key>UIAppFonts</key>
 	<array>
 		<string>Roboto-Regular.ttf</string>
