@@ -55,6 +55,7 @@ typedef NS_ENUM(NSUInteger, CTPurposeCode) {
     CTPurposeCodeFuelAdmin,
     CTPurposeCodeZeroExcess,
     CTPurposeCodeOtherFees,
+    CTPurposeCodeTotalFeesAndCharges,
     CTPurposeCodeGeneric,
     CTPurposeCodeUnknown,
 };
