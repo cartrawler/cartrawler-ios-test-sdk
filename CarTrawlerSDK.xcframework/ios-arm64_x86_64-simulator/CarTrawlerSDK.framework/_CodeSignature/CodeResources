@@ -66,7 +66,7 @@
 		</data>
 		<key>CTCarBlockView.nib</key>
 		<data>
-		YQs/914fQ2p/1iTkNsdaZIgPh9g=
+		I662y0KMns9/27e39R+vHiePlyQ=
 		</data>
 		<key>CTCashWidgetView.nib</key>
 		<data>
@@ -732,6 +732,14 @@
 		<data>
 		lBoNz2WAF8DRpeTQyD1+lVCw83w=
 		</data>
+		<key>Headers/CTNavigationDetails.h</key>
+		<data>
+		oukFdOUrmfyo37Yng6OpF1+z/5E=
+		</data>
+		<key>Headers/CTNavigationStackType.h</key>
+		<data>
+		SlplVgNXMkWDtgFfnMORVQxcnW0=
+		</data>
 		<key>Headers/CTPassenger.h</key>
 		<data>
 		NGVN9ldZKsNEgfKLm15HnVL2R74=
@@ -776,6 +784,10 @@
 		<data>
 		uXKeKYULmwu1CGLSJGHTl745V+w=
 		</data>
+		<key>Headers/CTVehicleSearch.h</key>
+		<data>
+		IYxEP64QYnsJLh1Xf6/N5/7kuCc=
+		</data>
 		<key>Headers/CTWidgetContainer.h</key>
 		<data>
 		6VZ0kUJqT58HRHI6yrki4Rx2/8c=
@@ -786,11 +798,11 @@
 		</data>
 		<key>Headers/CarTrawlerSDK.h</key>
 		<data>
-		mhxcRwqU3CcuKkf/cLIXCpun5xA=
+		tGX7wVeGV8ucfGcUw7T1YK+U5l8=
 		</data>
 		<key>Headers/CarTrawlerSDKDelegate.h</key>
 		<data>
-		SL7wpS4mzdAXOOaUt3DIR2OTv0w=
+		ata2lpwRccCf3kZ4aWPUwK1aCSE=
 		</data>
 		<key>Headers/Payment.h</key>
 		<data>
@@ -798,7 +810,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		WkzbWdUuSLRwTG9Sib2OPSFnSjg=
+		2cwDZKNXc8ECip41ofw5xCCsflw=
 		</data>
 		<key>InsuranceCardView.nib</key>
 		<data>
@@ -1145,7 +1157,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xnG1+GmkQSACFFHZWPoUt7QT6Rn+l78iBteass5pS4E=
+			ThX4VSwWxbChHv71OzHFnK5TT/yXB1paxjk4IjTgASM=
 			</data>
 		</dict>
 		<key>CTCashWidgetView.nib</key>
@@ -2310,6 +2322,20 @@
 			NnRvdkZyym7qTQcrWfNPluikj0I0hCcVc9d85u27GzY=
 			</data>
 		</dict>
+		<key>Headers/CTNavigationDetails.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/7+6pO8RoKleOKcQ/PTAFOEKBFesg+b44Q2AC/LA3o8=
+			</data>
+		</dict>
+		<key>Headers/CTNavigationStackType.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RP+Sg+WOJCS4r3vhf9B5NIM8QeJrcjYCv9YkRV3kvq8=
+			</data>
+		</dict>
 		<key>Headers/CTPassenger.h</key>
 		<dict>
 			<key>hash2</key>
@@ -2387,6 +2413,13 @@
 			lXicrTmyTumPsJSebyPVOioVvWnEpYWI6PbjQvJNG20=
 			</data>
 		</dict>
+		<key>Headers/CTVehicleSearch.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+8sjjgY/ek2C4pJ22cIKb7Wuk2PH8y2FQI29AVI6uik=
+			</data>
+		</dict>
 		<key>Headers/CTWidgetContainer.h</key>
 		<dict>
 			<key>hash2</key>
@@ -2405,14 +2438,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YeGihkud3bzpqps4QOUKeSctxm8jgP399vmdin5tiV4=
+			ugVFRIYDBkXl8mZOmSNURtlOxgWGLQ2vfMz0QtQTTQk=
 			</data>
 		</dict>
 		<key>Headers/CarTrawlerSDKDelegate.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			a2+6vLxKuJ+TvfEq1/GXoz3S8d7dfn/SQi0LSUSiIAs=
+			Chhm3Q0sl/cl3tWtiPP9QXp57dYNZ1u2ORtSi8Ok+MY=
 			</data>
 		</dict>
 		<key>Headers/Payment.h</key>
