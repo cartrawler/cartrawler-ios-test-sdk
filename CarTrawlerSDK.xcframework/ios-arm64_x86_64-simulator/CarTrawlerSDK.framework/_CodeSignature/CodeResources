@@ -664,6 +664,14 @@
 		<data>
 		t3YdzqbqERKP3b8OhBI8c5yffCI=
 		</data>
+		<key>FMDB_Privacy.bundle/Info.plist</key>
+		<data>
+		yy0LSlT60Mhe1HZFBcTEy2Oesl8=
+		</data>
+		<key>FMDB_Privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		ucg9pita0v8d353x3NuGfxweQYU=
+		</data>
 		<key>Headers/CTAPIQueryParams.h</key>
 		<data>
 		LsAdAcPMz6xBUGKRJY7cw3sSn4k=
@@ -798,7 +806,7 @@
 		</data>
 		<key>Headers/CarTrawlerSDK.h</key>
 		<data>
-		tGX7wVeGV8ucfGcUw7T1YK+U5l8=
+		eJ6/qyxq69ZxSHoG1K77OFsVnlw=
 		</data>
 		<key>Headers/CarTrawlerSDKDelegate.h</key>
 		<data>
@@ -2203,6 +2211,20 @@
 			dRbu7K0Mn8C7kR308L476/XheaYkxpYr3BYxWeH3+10=
 			</data>
 		</dict>
+		<key>FMDB_Privacy.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8w5Q0/XbmgKbHqrPsMaNXSVSF1YnPpRPlaTKzjIDWj4=
+			</data>
+		</dict>
+		<key>FMDB_Privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Uh6274Qwdz5cAQ4YOP6d2PpdYre3bRzqjX2NqtyxROI=
+			</data>
+		</dict>
 		<key>Headers/CTAPIQueryParams.h</key>
 		<dict>
 			<key>hash2</key>
@@ -2438,7 +2460,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ugVFRIYDBkXl8mZOmSNURtlOxgWGLQ2vfMz0QtQTTQk=
+			4CYVszIgvJ+LY5YZHcaLdxXxAjjMq1MuhBH8ibAhEi4=
 			</data>
 		</dict>
 		<key>Headers/CarTrawlerSDKDelegate.h</key>
