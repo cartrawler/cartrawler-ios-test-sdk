@@ -19,13 +19,12 @@ LICENSE
 
 s.author       = { "Cartrawler" => "" }
 s.platform     = :ios
-s.platform     = :ios, "11.0"
+s.platform     = :ios, "13.0"
 s.source       = { :git => "https://github.com/cartrawler/cartrawler-ios-test-sdk.git", :tag => "#{s.version}" }
 
 s.ios.vendored_frameworks = 'CarTrawlerSDK.xcframework'
 
 s.requires_arc = true
-s.dependency 'CTPaymentRelease'
 s.preserve_path = '**/*.dSYM'
 
 end
