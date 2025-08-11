@@ -19,6 +19,7 @@
 #import "CTReservationDetails.h"
 #import "CTVehicleCharge.h"
 #import "CTRecentSearch.h"
+#import "CTGridView.h"
 
 FOUNDATION_EXPORT double CarTrawlerSDKVersionNumber;
 
@@ -167,6 +168,16 @@ typedef void (^CTDismissSDKCompletion)(BOOL success);
  This will dismiss all SDK views
  */
 - (void)dismissSDK:(nonnull CTDismissSDKCompletion)completion;
+
+/**
+ Prewarm grid view
+ */
+- (nonnull CTGridView *)preWarmGridViewWithContext:(nonnull CTContext *)context;
+
+/**
+ Get grid view
+ */
+- (nonnull CTGridView *)getGridViewFrom:(nonnull UIViewController *)viewController context:(nonnull CTContext *)context;
 
 @end
 

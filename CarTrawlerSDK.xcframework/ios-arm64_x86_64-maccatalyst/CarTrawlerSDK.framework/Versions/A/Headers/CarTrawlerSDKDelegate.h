@@ -54,6 +54,13 @@ static NSString * _Nonnull const CTPlaceholderPassengerCountryCode = @"[COUNTRYN
 @optional
 
 /**
+ Called when the grid view pre warm has finished
+ 
+ @param dictionary The payload details
+ */
+- (void)didFinishPrewarm:(nullable NSDictionary *)dictionary;
+
+/**
  Called when the user navigates
  
  @param navigationDetails The navigation details

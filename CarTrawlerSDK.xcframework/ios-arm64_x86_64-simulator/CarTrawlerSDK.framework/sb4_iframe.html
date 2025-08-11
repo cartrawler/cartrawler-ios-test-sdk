@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+            <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>SB4 WebView</title>
+            <style>
+                html, body {
+                    height: 100%;
+                    margin: 0;
+                    overflow: hidden
+                }
+                iframe {
+                    margin: 0;
+                    padding: 8;
+                    height: 100%;
+                    width: 100%;
+                    border: none;
+                }
+            </style>
+            <script>
+                window.addEventListener('message', function (event) {
+                    switch (event.data.type) {
+                        case 'RESIZE_IFRAME':
+                        if (event.data.height) {
+                            window.webkit.messageHandlers.CTWebView.postMessage(event.data.height);
+                        }
+                        break;
+                        case 'SMARTBLOCK:onReady':
+                        case 'SMARTBLOCK:onPrewarm':
+                        case 'SMARTBLOCK:onProducts':
+                        case 'SMARTBLOCK:onProduct':
+                        case 'SMARTBLOCK:onView':
+                        case 'SMARTBLOCK:onError':
+                        case 'SMARTBLOCK:onAvail':
+                        if (event.data.payload) {
+                            window.webkit.messageHandlers.CTWebView.postMessage({"event": event.data.type, "payload": event.data.payload}, "*");
+                        } else {
+                            window.webkit.messageHandlers.CTWebView.postMessage({"event": event.data.type}, "*");
+                        }
+                        break;
+                        case 'SMARTBLOCK:onBasket':
+                        if (event.data && event.data.status && event.data.status == "ADD" && event.data.payload) {
+                            try {
+                                const parsedMsgRaw = JSON.stringify(event.data.payload.book.msgRaw);
+                                window.webkit.messageHandlers.CTWebView.postMessage({"event": "SMARTBLOCK:onBasketAdd", "payload": event.data.payload}, "*"); // Send to native side
+                            } catch (error) {
+                                window.webkit.messageHandlers.CTWebView.postMessage({"event": "SMARTBLOCK:onErrorParser"}, "*");
+                            }
+                        } else if (event.data && event.data.status && event.data.status == "REMOVE") {
+                            try {
+                                window.webkit.messageHandlers.CTWebView.postMessage({"event": "SMARTBLOCK:onBasketRemove", "payload": event.data.payload}, "*"); // Send to native side
+                            } catch (error) {
+                                window.webkit.messageHandlers.CTWebView.postMessage({"event": "SMARTBLOCK:onErrorParser"}, "*");
+                            }
+                        }
+                        break;
+                    }
+                });
+            </script>
+    </head>
+    <body>
+        <iframe src="[url]"></iframe>
+    </body>
+</html>
