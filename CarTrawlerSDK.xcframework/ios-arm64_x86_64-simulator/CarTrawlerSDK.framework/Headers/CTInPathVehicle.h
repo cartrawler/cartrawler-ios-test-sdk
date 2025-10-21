@@ -38,7 +38,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, nullable, strong, readonly) CTVehicleDetails *vehicleDetails;
 @property (nonatomic, nullable, strong, readonly) NSArray <CTVehicleCharge *> *vehicleCharges;
 @property (nonatomic, nullable, strong, readonly) CTLoyalty *loyalty;
-
+@property (nonatomic, nullable, strong, readonly) NSString *pickupDateString;
+@property (nonatomic, nullable, strong, readonly) NSString *dropoffDateString;
 /**
  *  The pay now price, this amount will be taken from the customers card at the time of booking. This price is made up from the deposit amount + insurance cost (if purchased)
  */

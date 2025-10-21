@@ -34,6 +34,7 @@ typedef void (^CTReservationCompletion)(CTReservationDetails * _Nullable reserva
 typedef void (^CTRecentSearchesCompletion)(NSArray<CTRecentSearch *> * _Nullable recentSearches, NSError * _Nullable error);
 typedef void (^CTRemoveRecentSearchesCompletion)(BOOL success, NSError * _Nullable error);
 typedef void (^CTDismissSDKCompletion)(BOOL success);
+typedef void (^CTGridViewHeightCompletion)(CGFloat height);
 
 /**
  Please refer to cartrawler.github.io for full documentation
@@ -177,7 +178,7 @@ typedef void (^CTDismissSDKCompletion)(BOOL success);
 /**
  Get grid view
  */
-- (nonnull CTGridView *)getGridViewFrom:(nonnull UIViewController *)viewController context:(nonnull CTContext *)context;
+- (nonnull CTGridView *)getGridViewFrom:(nonnull UIViewController *)viewController context:(nonnull CTContext *)context completion:(nullable CTGridViewHeightCompletion)completion;
 
 @end
 
