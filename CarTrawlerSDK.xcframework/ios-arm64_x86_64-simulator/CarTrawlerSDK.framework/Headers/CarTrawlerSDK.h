@@ -35,6 +35,7 @@ typedef void (^CTRecentSearchesCompletion)(NSArray<CTRecentSearch *> * _Nullable
 typedef void (^CTRemoveRecentSearchesCompletion)(BOOL success, NSError * _Nullable error);
 typedef void (^CTDismissSDKCompletion)(BOOL success);
 typedef void (^CTGridViewHeightCompletion)(CGFloat height);
+typedef void (^CTBestDailyRateCompletion)(NSNumber * _Nonnull price, NSString * _Nonnull currency);
 
 /**
  Please refer to cartrawler.github.io for full documentation
@@ -138,6 +139,15 @@ typedef void (^CTGridViewHeightCompletion)(CGFloat height);
  The SDK must be initialised, and a CTAPIQueryParams object with the necessary parameters must be set before calling this method
  */
 - (void)requestBestDailyRate:(nonnull CTAPIQueryParams *)params;
+
+/**
+ This will trigger a new best daily rate fetch, and the subsequent delegate callbacks
+ The SDK must be initialised, and a CTAPIQueryParams object with the necessary parameters must be set before calling this method
+ 
+ @param params API request params
+ @param completion Completion block
+ */
+- (void)requestBestDailyRate:(nonnull CTAPIQueryParams *)params completion:(nonnull CTBestDailyRateCompletion)completion;
 
 /**
  This will trigger a new vehicle request call
