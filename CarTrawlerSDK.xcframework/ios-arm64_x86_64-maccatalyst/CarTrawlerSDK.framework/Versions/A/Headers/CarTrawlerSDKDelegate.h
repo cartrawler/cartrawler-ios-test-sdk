@@ -58,8 +58,11 @@ static NSString * _Nonnull const CTPlaceholderPassengerCountryCode = @"[COUNTRYN
  
  @param bookingID  Booking ID
  @param email Booking email
+ @param resUid Booking resUid
  */
-- (void)didReceiveBookingID:(nonnull NSString *)bookingID email:(nonnull NSString *)email;
+- (void)didReceiveBookingID:(nonnull NSString *)bookingID
+                      email:(nonnull NSString *)email
+                     resUid:(nonnull NSString *)resUid;
 
 /**
  Called when the grid view pre warm has finished

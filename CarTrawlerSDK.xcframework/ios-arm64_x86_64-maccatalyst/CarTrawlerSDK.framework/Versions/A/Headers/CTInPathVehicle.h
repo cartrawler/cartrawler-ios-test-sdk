@@ -40,6 +40,11 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, nullable, strong, readonly) CTLoyalty *loyalty;
 @property (nonatomic, nullable, strong, readonly) NSString *pickupDateString;
 @property (nonatomic, nullable, strong, readonly) NSString *dropoffDateString;
+@property (nonatomic, strong, readonly) NSString *language;
+@property (nonatomic, strong, readonly) NSString *currency;
+@property (nonatomic, strong, readonly) NSNumber *age;
+@property (nonatomic, strong, readonly) NSString *residency;
+
 /**
  *  The pay now price, this amount will be taken from the customers card at the time of booking. This price is made up from the deposit amount + insurance cost (if purchased)
  */
