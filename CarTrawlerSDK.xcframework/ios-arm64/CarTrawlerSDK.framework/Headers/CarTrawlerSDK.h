@@ -183,7 +183,7 @@ typedef void (^CTBestDailyRateCompletion)(NSNumber * _Nonnull price, NSString * 
 /**
  Prewarm grid view
  */
-- (nonnull CTGridView *)preWarmGridViewWithContext:(nonnull CTContext *)context;
+- (nonnull CTGridView *)preWarmGridViewWithContext:(nonnull CTContext *)context completion:(nullable CTBestDailyRateCompletion)completion;
 
 /**
  Get grid view
