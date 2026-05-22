@@ -64,7 +64,7 @@
                               break;
                         }
                                   
-                        window.webkit.messageHandlers.CTWebView.postMessage({"currentState" : currentState}, "*");
+                        window.webkit.messageHandlers.CTWebView.postMessage({"jsonResponse": decodeURIComponent(e.data), "currentState" : currentState}, "*");
                     } else {
                         window.webkit.messageHandlers.CTWebView.postMessage({"jsonResponse": decodeURIComponent(e.data)}, "*");
                     }
@@ -84,7 +84,8 @@
         
       function post(data) {
           var iframe = document.getElementById("ct-secure-payment").contentWindow;
-          iframe.postMessage(encodeURIComponent(data), '*');
+          var json = (typeof data === "string") ? data : JSON.stringify(data);
+          iframe.postMessage(encodeURIComponent(json), "*");
       }
 
       function validateAndBook() {
