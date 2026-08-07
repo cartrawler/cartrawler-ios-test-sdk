@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 #import "CTLoyaltyStyle.h"
-#import "CTCashStyle.h"
-#import "CTSupplierBenefitsStyle.h"
-#import "CTBannerStyle.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -25,11 +22,6 @@ typedef NS_ENUM(NSInteger, CTUserInterfaceStyle) {
     CTUserInterfaceStyleDark
 };
 
-typedef NS_ENUM(NSUInteger, CTLandingPageStyle) {
-    CTLandingPageStyleDefault,
-    CTLandingPageStyleCheckmark
-};
-
 @interface CTStyle : NSObject
 
 // Mandatory parameters
@@ -38,7 +30,6 @@ typedef NS_ENUM(NSUInteger, CTLandingPageStyle) {
 
 // Optional Parameters
 @property (nonatomic) CTUserInterfaceStyle userInterfaceStyle;
-@property (nonatomic) CTLandingPageStyle landingPageStyle;
 @property (nonatomic, strong) UIColor *primaryDarkColor;
 @property (nonatomic, strong) UIColor *primaryLightColor;
 @property (nonatomic, strong) UIColor *ctaColor;
@@ -57,18 +48,6 @@ typedef NS_ENUM(NSUInteger, CTLandingPageStyle) {
 @property (nonatomic, strong) UIColor *dmSecondaryCtaFontColor;
 @property (nonatomic, strong) UIColor *dmLinkColor;
 
-// Landing page logo
-@property (nonatomic, strong, nullable) UIImage *landingPageLogoImage;
-@property (nonatomic, strong, nullable) NSURL *landingPageLogoURL;
-
-// Dark Mode landing page logo
-@property (nonatomic, strong, nullable) UIImage *dmLandingPageLogoImage;
-@property (nonatomic, strong, nullable) NSURL *dmLandingPageLogoURL;
-
-// Landing Page Navigation Bar Image
-@property (nonatomic, strong, nullable) UIImage *landingTopBarImage;
-@property (nonatomic, strong, nullable) UIImage *landingTopBarImageDark;
-
 // Fonts
 @property (nonatomic, strong) UIFont *regularFont;
 @property (nonatomic, strong) UIFont *boldFont;
@@ -77,16 +56,8 @@ typedef NS_ENUM(NSUInteger, CTLandingPageStyle) {
 // Loyalty
 @property (nonatomic, strong) CTLoyaltyStyle *loyaltyStyle;
 
-// CarTrawler Cash
-@property (nonatomic, strong) CTCashStyle *cashStyle;
-
-// Supplier Benefits
-@property (nonatomic, strong) CTSupplierBenefitsStyle *supplierBenefitStyle;
-
 + (instancetype)styleWithTheme:(CTAppTheme)appTheme
                   primaryColor:(nonnull UIColor *)primaryColor;
-
-- (void)addBannerStyle:(nonnull CTBannerStyle *)bannerStyle;
 
 @end
 

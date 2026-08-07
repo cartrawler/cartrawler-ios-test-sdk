@@ -8,7 +8,6 @@
 
 #import "CTInPathVehicle.h"
 #import "CTVehicleDetails.h"
-#import "CTWidgetContainer.h"
 #import "CTNavigationDetails.h"
 #import "Payment.h"
 #import "CTVehicleSearch.h"
@@ -125,21 +124,4 @@ static NSString * _Nonnull const CTPlaceholderPassengerCountryCode = @"[COUNTRYN
  */
 - (void)didReceiveReservationDetails:(nonnull CTReservationDetails *)reservationDetails;
 
-/**
- Called when the user taps on the cross sell card
- */
-- (void)didTapCrossSellCard;
-
 @end
-
-
-@protocol CTWidgetContainerDelegate <NSObject>
-
-@optional
-- (void)didTapView:(nonnull CTWidgetContainer *)container;
-- (void)didTapAddCarHire:(nonnull CTWidgetContainer *)container;
-- (void)didTapRemoveButton:(nonnull CTWidgetContainer *)container;
-- (void)vehicleSelected:(nonnull CTVehicleDetails *)vehicle;
-
-@end
-

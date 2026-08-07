@@ -10,12 +10,10 @@
 #import "CarTrawlerSDKDelegate.h"
 #import "CTStyle.h"
 #import "CTExtraEquipment.h"
-#import "CTInPathProtocol.h"
 #import "CTCustomer.h"
 #import "CTFee.h"
 #import "CTAPIQueryParams.h"
 #import "CTContext.h"
-#import "CTWidgetContainer.h"
 #import "CTReservationDetails.h"
 #import "CTVehicleCharge.h"
 #import "CTRecentSearch.h"
@@ -98,30 +96,6 @@ typedef void (^CTBestDailyRateCompletion)(NSNumber * _Nonnull price, NSString * 
 
 
 /**
- Returns Rental Card to the client
- */
-- (nonnull UIView *)getRentalCard;
-
-/**
- Returns Widget to the client
- */
-- (nonnull CTWidgetContainer *)getWidgetWithStatus:(CTWidgetStatus)status
-                                             style:(nullable CTWidgetStyle *)style
-                                      withDelegate:(nullable id <CTWidgetContainerDelegate>)delegate NS_SWIFT_NAME(getWidget(status:style:delegate:));
-
-/**
- Refreshes the in path search.
- This will trigger a new best daily rate fetch, and the subsequent delegate callbacks
- The SDK must be initialised, and the In Path card added before calling this method
- */
-- (void)refreshInPath;
-
-/**
- Removes an added vehicle if selected
- */
-- (void)removeVehicle;
-
-/**
  Call this method when a successful In Path payment has been completed.
  
  @param confirmationID The confirmation ID or 'Booking reference'
@@ -191,4 +165,3 @@ typedef void (^CTBestDailyRateCompletion)(NSNumber * _Nonnull price, NSString * 
 - (nonnull CTGridView *)getGridViewFrom:(nonnull UIViewController *)viewController context:(nonnull CTContext *)context completion:(nullable CTGridViewHeightCompletion)completion;
 
 @end
-
