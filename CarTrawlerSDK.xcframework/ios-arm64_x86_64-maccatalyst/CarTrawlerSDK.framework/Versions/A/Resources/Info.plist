@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>24G720</string>
+	<string>24G830</string>
 	<key>CFBundleCarTrawlerSDKVersion</key>
-	<string>16.11.2</string>
+	<string>16.12.0</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -19,7 +19,7 @@
 	<key>CFBundlePackageType</key>
 	<string>FMWK</string>
 	<key>CFBundleShortVersionString</key>
-	<string>16.11.2</string>
+	<string>16.12.0</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>MacOSX</string>
@@ -54,6 +54,8 @@
 		<string>Roboto-Regular.ttf</string>
 		<string>Roboto-Bold.ttf</string>
 		<string>Roboto-Italic.ttf</string>
+		<string>V5-Mobile.ttf</string>
+		<string>Roboto-Light.ttf</string>
 	</array>
 	<key>UIDeviceFamily</key>
 	<array>

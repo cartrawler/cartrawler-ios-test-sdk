@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-@class CTInsuranceDetails;
+#import "CTInsuranceDetails.h"
 #import "CTLocationDetails.h"
 #import "CTRentalInfo.h"
 #import "CTLoyalty.h"
